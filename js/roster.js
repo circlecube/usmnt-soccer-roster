@@ -1,4 +1,4 @@
-var players = [
+var usmnt_players = [
 /*//{'player': 'PLAYER',
 	 'pos': 'POSISTION',
 	 'ht': 'HEIGHT',
@@ -14,7 +14,7 @@ var players = [
 	},
 //*/
 	{'player': 'Jozy Altidore',
-	 'pos': 'F',
+	 'pos': 'Forward',
 	 'ht': '6-1',
 	 'wt': '175',
 	 'birthdate': '11/6/89',
@@ -27,7 +27,7 @@ var players = [
 	 'number': 17
 	},
 	{'player': 'DaMarcus Beasley',
-	 'pos': 'D',
+	 'pos': 'Defender',
 	 'ht': '5-8',
 	 'wt': '145',
 	 'birthdate': '5/24/82',
@@ -40,7 +40,7 @@ var players = [
 	 'number': 7
 	},
 	{'player': 'Kyle Beckerman',
-	 'pos': 'M',
+	 'pos': 'Midfielder',
 	 'ht': '5-10',
 	 'wt': '165',
 	 'birthdate': '4/23/82',
@@ -53,7 +53,7 @@ var players = [
 	 'number': 15
 	},
 	{'player': 'Alejandro Bedoya',
-	 'pos': 'M',
+	 'pos': 'Midfielder',
 	 'ht': '5-10',
 	 'wt': '160',
 	 'birthdate': '4/29/87',
@@ -66,7 +66,7 @@ var players = [
 	 'number': 11
 	},
 	{'player': 'Matt Besler',
-	 'pos': 'D',
+	 'pos': 'Defender',
 	 'ht': '6-0',
 	 'wt': '170',
 	 'birthdate': '2/11/87',
@@ -79,7 +79,7 @@ var players = [
 	 'number': 5
 	},
 	{'player': 'Michael Bradley',
-	 'pos': 'M',
+	 'pos': 'Midfielder',
 	 'ht': '6-2',
 	 'wt': '175',
 	 'birthdate': '7/31/87',
@@ -92,7 +92,7 @@ var players = [
 	 'number': 4
 	},
 	{'player': 'John Brooks',
-	 'pos': 'D',
+	 'pos': 'Defender',
 	 'ht': '6-4',
 	 'wt': '170',
 	 'birthdate': '1/28/93',
@@ -105,7 +105,7 @@ var players = [
 	 'number': 6
 	},
 	{'player': 'Geoff Cameron',
-	 'pos': 'D',
+	 'pos': 'Defender',
 	 'ht': '6-3',
 	 'wt': '185',
 	 'birthdate': '7/11/85',
@@ -118,7 +118,7 @@ var players = [
 	 'number': 20
 	},
 	{'player': 'Timothy Chandler',
-	 'pos': 'D',
+	 'pos': 'Defender',
 	 'ht': '6-1',
 	 'wt': '180',
 	 'birthdate': '3/29/90',
@@ -131,7 +131,7 @@ var players = [
 	 'number': 21
 	},
 	{'player': 'Brad Davis',
-	 'pos': 'M',
+	 'pos': 'Midfielder',
 	 'ht': '5-11',
 	 'wt': '165',
 	 'birthdate': '11/8/81',
@@ -144,7 +144,7 @@ var players = [
 	 'number': 14
 	},
 	{'player': 'Clint Dempsey',
-	 'pos': 'F',
+	 'pos': 'Forward',
 	 'ht': '6-1',
 	 'wt': '170',
 	 'birthdate': '3/9/83',
@@ -157,7 +157,7 @@ var players = [
 	 'number': 8
 	},
 	{'player': 'Mix Diskerud',
-	 'pos': 'M',
+	 'pos': 'Midfielder',
 	 'ht': '6-0',
 	 'wt': '150',
 	 'birthdate': '10/2/90',
@@ -170,7 +170,7 @@ var players = [
 	 'number': 10
 	},
 	{'player': 'Omar Gonzalez',
-	 'pos': 'D',
+	 'pos': 'Defender',
 	 'ht': '6-5',
 	 'wt': '210',
 	 'birthdate': '10/11/88',
@@ -183,7 +183,7 @@ var players = [
 	 'number': 3
 	},
 	{'player': 'Julian Green',
-	 'pos': 'M',
+	 'pos': 'Midfielder',
 	 'ht': '5-7',
 	 'wt': '140',
 	 'birthdate': '6/6/95',
@@ -196,7 +196,7 @@ var players = [
 	 'number': 16
 	},
 	{'player': 'Brad Guzan',
-	 'pos': 'GK',
+	 'pos': 'Goal Keeper',
 	 'ht': '6-4',
 	 'wt': '210',
 	 'birthdate': '9/9/84',
@@ -209,7 +209,7 @@ var players = [
 	 'number': 12
 	},
 	{'player': 'Tim Howard',
-	 'pos': 'GK',
+	 'pos': 'Goal Keeper',
 	 'ht': '6-3',
 	 'wt': '210',
 	 'birthdate': '3/6/79',
@@ -222,7 +222,7 @@ var players = [
 	 'number': 1
 	},
 	{'player': 'Aron Johannsson',
-	 'pos': 'F',
+	 'pos': 'Forward',
 	 'ht': '6-0',
 	 'wt': '165',
 	 'birthdate': '11/10/90',
@@ -235,7 +235,7 @@ var players = [
 	 'number': 9
 	},
 	{'player': 'Fabian Johnson',
-	 'pos': 'D',
+	 'pos': 'Defender',
 	 'ht': '6-0',
 	 'wt': '155',
 	 'birthdate': '12/11/87',
@@ -248,7 +248,7 @@ var players = [
 	 'number': 23
 	},
 	{'player': 'Jermaine Jones',
-	 'pos': 'M',
+	 'pos': 'Midfielder',
 	 'ht': '6-0',
 	 'wt': '170',
 	 'birthdate': '11/3/81',
@@ -261,7 +261,7 @@ var players = [
 	 'number': 13
 	},
 	{'player': 'Nick Rimando',
-	 'pos': 'GK',
+	 'pos': 'Goal Keeper',
 	 'ht': '5-11',
 	 'wt': '180',
 	 'birthdate': '6/17/79',
@@ -274,7 +274,7 @@ var players = [
 	 'number': 22
 	},
 	{'player': 'Chris Wondolowski',
-	 'pos': 'F',
+	 'pos': 'Forward',
 	 'ht': '6-0',
 	 'wt': '165',
 	 'birthdate': '1/28/83',
@@ -287,7 +287,7 @@ var players = [
 	 'number': 18
 	},
 	{'player': 'DeAndre Yedlin',
-	 'pos': 'D',
+	 'pos': 'Defender',
 	 'ht': '5-8',
 	 'wt': '150',
 	 'birthdate': '7/9/93',
@@ -300,7 +300,7 @@ var players = [
 	 'number': 2
 	},
 	{'player': 'Graham Zusi',
-	 'pos': 'M',
+	 'pos': 'Midfielder',
 	 'ht': '5-10',
 	 'wt': '160',
 	 'birthdate': '8/18/86',

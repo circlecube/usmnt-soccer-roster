@@ -9,7 +9,7 @@ var keep_log = true;
 var clicked;
 var has_class_no_touch = false;
 
-var active_cannon = players;
+var active_team = usmnt_players;
 
 jQuery(document).ready(function($) {
 
@@ -27,9 +27,8 @@ jQuery(document).ready(function($) {
 		//activity_log = [];
 
 		$('body').attr('class', '');
-		$('body').addClass(  'font-' + font_size );
 
-		game_aofs();
+		game_players();
 	}
 
 	function onDeviceReady() {
@@ -61,20 +60,24 @@ jQuery(document).ready(function($) {
 		}
 	});
 
-	
+	function game_players(){
+		console.log('start game');
+		list_players();
+	}
 
-	function list_aofs(){
-		var aofs = '';
+	function list_players(){
+		var players = '';
 
-		for ( var i = 0; i < active_cannon.length; i++){
-			aofs += "<article class='aof_" + i + "'>";
-			aofs += "<dt>" + active_cannon[i].reference + "</dt>";
-			aofs += "<dd>" + active_cannon[i].verse;
-			aofs += "</article>";
+		for ( var i = 0; i < active_team.length; i++){
+			players += "<article class='aof_" + i + "'>";
+			players += "<dt>" + active_team[i].player + "</dt>";
+			players += "<dd>#" + active_team[i].number + " " + active_team[i].pos + " - " + active_team[i].player + ', from ' + active_team[i].hometown + ', plays for ' + active_team[i].club;
+			players += "<img src='img/" + active_team[i].img + "'>";
+			players += "</dd></article>";
 		}
 
-		$('.title').text( langs[language].title_plural );
-		$('.content').html(aofs);
+		$('.title').text( 'USMNT Roster' );
+		$('.content').html(players);
 
 		$('article dd').each(function(idx,e){
 			//$(this).slideUp();
@@ -87,7 +90,7 @@ jQuery(document).ready(function($) {
 	});
 
 	$('.list_all').on('click touch', function(e){
-		list_aofs();
+		list_players();
 	});
 	$('body').on('touchstart', function(){
 		// commented for browser dev only??
@@ -97,7 +100,7 @@ jQuery(document).ready(function($) {
 		touching = false;
 	});
 	$('.quiz_begin').on('click touch', function(e){
-		game_aofs();
+		game_players();
 	});
 	$('.about').on('click touch', function(e){
 		show_about();
@@ -106,12 +109,12 @@ jQuery(document).ready(function($) {
 		show_activity_log();
 	});
 	$('.content').on('click touch', '.button_skip', function(e){
-		game_aofs();
+		game_players();
 	});
 	$('.content').on('click touch', '.button_again', function(e){
 		quiz_article--;
 		$(this).remove();
-		game_aofs();
+		game_players();
 	});
 	$('.options_toggle').on('click touch', function(){
 		$('.options').toggleClass('active');
@@ -133,7 +136,7 @@ jQuery(document).ready(function($) {
 			//console.log(activity_log[i]);
 			if ( activity_log[i].s != undefined ) {
 				content += '<dd>' + activity_log[i].s + '% - ';
-				content += active_cannon[ activity_log[i].i ].reference + ' ';
+				content += active_team[ activity_log[i].i ].reference + ' ';
 				// content += ' (' + activity_log[i].d + ') ';
 				content += relative_time(activity_log[i].t) + '.</dd>';
 			}
