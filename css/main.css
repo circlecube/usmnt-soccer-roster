@@ -604,3 +604,26 @@ body.font-small {
     color: #fff;
     padding: .5em 0;
 }
+
+
+
+.answer {
+    width: 50%;
+    float:left;
+    position:relative;
+}
+.answer img {
+    width: 100%;
+    height: auto;
+}
+.answer .label {
+    position:absolute;
+    bottom: 10%;
+    left:0;
+    width: 100%;
+    background: #333;
+    color:#eee;
+    font-size: 22px;
+    padding: 10px 0;
+    text-align:center;
+}

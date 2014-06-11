@@ -47,15 +47,15 @@
     <div class="content">
 
         <script id="list_player" type="text/x-handlebars-template">
-            <article class=''>
-                <dt>{{player.player}}</dt>
-                <dd>#{{player.number}} {{player.pos}} - {{player.player}}, from {{player.hometown}}, plays for {{player.club}}
-                    <img src='img/{{player.img}}'>
-                </dd>
+            <article class='answer'>
+                <p class="label">{{player.player}}</p>
+                <!-- <p class="stats">#{{player.number}} {{player.pos}} - {{player.player}}, from {{player.hometown}}, plays for {{player.club}}</p> -->
+                <img src='img/{{player.img}}'>
             </article>
         </script>
 
     </div>
+    <footer class='score'></footer>
 
 
 </div>
