@@ -10,6 +10,8 @@ var clicked;
 var has_class_no_touch = false;
 
 var active_team = usmnt_players;
+var list_player;
+var list_player_template;
 
 jQuery(document).ready(function($) {
 
@@ -27,6 +29,10 @@ jQuery(document).ready(function($) {
 		//activity_log = [];
 
 		$('body').attr('class', '');
+
+		//setup handlebars
+		list_player = $("#list_player").html();
+		list_player_template = Handlebars.compile(list_player);
 
 		game_players();
 	}
@@ -69,11 +75,11 @@ jQuery(document).ready(function($) {
 		var players = '';
 
 		for ( var i = 0; i < active_team.length; i++){
-			players += "<article class='aof_" + i + "'>";
-			players += "<dt>" + active_team[i].player + "</dt>";
-			players += "<dd>#" + active_team[i].number + " " + active_team[i].pos + " - " + active_team[i].player + ', from ' + active_team[i].hometown + ', plays for ' + active_team[i].club;
-			players += "<img src='img/" + active_team[i].img + "'>";
-			players += "</dd></article>";
+			players += list_player_template(
+						{
+							index: i, 
+							player: active_team[i]
+						});
 		}
 
 		$('.title').text( 'USMNT Roster' );

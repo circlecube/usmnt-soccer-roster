@@ -45,7 +45,16 @@
 
 
     <div class="content">
-        
+
+        <script id="list_player" type="text/x-handlebars-template">
+            <article class=''>
+                <dt>{{player.player}}</dt>
+                <dd>#{{player.number}} {{player.pos}} - {{player.player}}, from {{player.hometown}}, plays for {{player.club}}
+                    <img src='img/{{player.img}}'>
+                </dd>
+            </article>
+        </script>
+
     </div>
 
 
