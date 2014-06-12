@@ -333,11 +333,12 @@ textarea {
 /*
 
 Colors
-green: #1166aa;
-blue : #3366ee;
 
-blue: #1166aa;
+red: #d31346;
+light red: #e04871;
 
+blue: #00549d;
+light blue: #4380b7;
 
 */
 
@@ -347,16 +348,16 @@ body,
     padding:0;
     margin:0;
     background: #fff;
+    font-family:'UnitedSansRgMd','Georgia',serif;
 }
 .header{
     width: 100%;
     z-index: 100;
-    background: #1166aa;
-    /*background: #3366ee;*/
+    background: #00549d;
     padding: 0;
     margin: 0;
     color: #fff;
-    font-family:'Trajan','Georgia',serif;
+    font-family:'UnitedSansCdHv','Georgia',serif;
     overflow:hidden;
 }
 .header h1{
@@ -365,6 +366,7 @@ body,
     display:block;
     font-size: 1em;
     white-space: nowrap;
+    color:#fff;
 }
 .menu-toggle {
     cursor: pointer;
@@ -456,7 +458,7 @@ body,
     padding: 2em;
     z-index:1;
     color:#fff;
-    font-family:'Trajan','Georgia',serif;
+    font-family:'UnitedSansCdHv','Georgia',serif;
     display:none;
 }
 .options .option{
@@ -476,7 +478,7 @@ body,
 }
 
 .content h1 {
-    font-family:'Trajan','Georgia',serif;
+    font-family:'UnitedSansCdHv','Georgia',serif;
     padding:.5em;
 }
 .content dt {
@@ -485,7 +487,7 @@ body,
     padding: 1em;
     background: #eee;
     border-bottom: 1px solid #1166aa;
-    font-family:'Trajan','Georgia',serif;
+    font-family:'UnitedSansCdHv','Georgia',serif;
 }
 .content dt:hover,
 .content dt.active,
@@ -585,7 +587,7 @@ body.font-small {
     color:#fff;
 }
 .sub-title{
-    font-family:'Trajan','Georgia',serif;
+    font-family:'UnitedSansCdHv','Georgia',serif;
     padding: .66em;
     font-weight: normal;
     margin: 0;
@@ -606,7 +608,12 @@ body.font-small {
 }
 
 
-
+.question {
+    font-family:'UnitedSansCdHv','Georgia',serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align:center;
+}
 .answer {
     width: 50%;
     float:left;
@@ -617,13 +624,16 @@ body.font-small {
     height: auto;
 }
 .answer .label {
+    font-family:'UnitedSansSmCdHv','Georgia',serif;
+    text-transform: uppercase;
     position:absolute;
     bottom: 10%;
     left:0;
     width: 100%;
-    background: #333;
-    color:#eee;
-    font-size: 22px;
-    padding: 10px 0;
+    background: #00549d;
+    color:#fff;
+    font-size: 24px;
+    padding: 8px 0;
     text-align:center;
+    border-bottom: 12px solid #d31346;
 }
