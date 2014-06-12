@@ -30,13 +30,23 @@
     <div class="options">
 <div id="mmenu" class="menu">
     <ul>
-        <li class="quiz quiz_ot" data-active-cannon="0"><a href="#" class="quiz_begin">Quiz</a></li>
+        <li class="quiz"><a href="#" class="quiz_begin">Quiz</a>
+            <ul class="quiz_type">
+                <li class="active"><a href="#" class="quiz quiz_face" data-index="0" data-value="face">Faces</a></li>
+                <li><a href="#" class="quiz quiz_number" data-index="1" data-value="number">Jersey Number</a></li>
+                <li><a href="#" class="quiz quiz_bio" data-index="2" data-value="bio">Bio</a></li>
+                <li><a href="#" class="quiz quiz_faces" data-index="3" data-value="face2">Faces II</a></li>
+                <!-- <li><a href="#" class="quiz quiz_name" data-index="2" data-value="name">Names</a></li> -->
+            </ul>
+        </li>
         <li><a href="#" class="list_all">List All</a></li>
         <li><a href="#" class="about">About</a></li>
         <li><a href="#" class="settings">Settings</a>
             <ul>
-                <!-- <li class="active"><a href="#" class="option_keep_log">Keep Log</a></li> -->
-                <li><a href="#" class="activity_log">View Activity</a></li>
+                <!-- <li class="active"><a href="#" class="option_keep_log">Keep Log</a></li>
+                <li><a href="#" class="activity_log">View Activity</a></li> -->
+                <li class="active"><a href="#" class="mode mode_learn" data-mode="learn">Learn Mode</a></li>
+                <li><a href="#" class="mode mode_test" data-mode="test">Test Mode</a></li>
             </ul>
         </li>
     </ul>
@@ -47,10 +57,10 @@
     <div class="content">
 
         <script id="list_player" type="text/x-handlebars-template">
-            <article class='answer'>
+            <article class='answer' >
                 <p class="label">{{player.player}}</p>
                 <!-- <p class="stats">#{{player.number}} {{player.pos}} - {{player.player}}, from {{player.hometown}}, plays for {{player.club}}</p> -->
-                <img src='img/{{player.img}}'>
+                <img src='img/{{player.img2}}'>
             </article>
         </script>
 

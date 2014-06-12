@@ -336,18 +336,27 @@ var usmnt_players = [
 	 'number': 19,
 	 'bio':"Scored in January 2012 exhibition at Panama, then had goals in World Cup qualifiers against Jamaica and at Panama last October. Goal vs. Reggae Boyz was in his home stadium, Sporting Park; the goal vs. Panama tied the score in stoppage time, advancing Mexico to a playoff for a World Cup berth at the expense of Panama. Spent entire professional career since 2009 with Sporting Kansas City. Helped Maryland win NCAA titles in 2005 and 2008. Received degree in criminology."
 	},
-	{'player': 'Jurgen Klinsmann',
-	 'pos': 'Coach',
-	 'ht': '5-11',
-	 'wt': '161',
-	 'birthdate': '7/30/64',
-	 'hometown': 'Göppingen, Germany',
-	 'club': 'US MNT Team',
-	 'img': 'JurgenKlinsmannUSMNT1-HondurasHomeWCQ2013-ISIPhotos.jpg',
-	 'img2': '051414-USMNT-30-man-Preliminary-Roster-USA-manager-Juergen-Klinsmann-JW-G.vnocropresize.940.529.medium.89.jpg',
-	 'caps': 108,
-	 'goals': 47,
-	 'number': 19,
-	 'bio':""
-	},
+	// {'player': 'Jurgen Klinsmann',
+	//  'pos': 'Coach',
+	//  'ht': '5-11',
+	//  'wt': '161',
+	//  'birthdate': '7/30/64',
+	//  'hometown': 'Göppingen, Germany',
+	//  'club': 'US MNT Team',
+	//  'img': 'JurgenKlinsmannUSMNT1-HondurasHomeWCQ2013-ISIPhotos.jpg',
+	//  'img2': '051414-USMNT-30-man-Preliminary-Roster-USA-manager-Juergen-Klinsmann-JW-G.vnocropresize.940.529.medium.89.jpg',
+	//  'caps': 108,
+	//  'goals': 47,
+	//  'number': 'x',
+	//  'bio':""
+	// },
 ];
+/*
+Special Thanks
+Bios:
+ http://www.ussoccer.com/mens-national-team/latest-roster
+ http://www.wjla.com/articles/2014/06/us-world-cup-team-player-capsules-103892.html
+Images:
+ http://ussoccer.com
+ http://msn.foxsports.com/soccer/photos/meet-team-united-states-world-cup-roster-23-man-squad-brazil-051314
+*/
