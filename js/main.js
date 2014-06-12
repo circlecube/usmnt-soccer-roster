@@ -11,6 +11,7 @@ var clicked;
 var has_class_no_touch = false;
 var num_total = 0;
 var num_correct = 0;
+var num_incorrect = 0;
 var level = 0;
 var num_levels = 4;
 var mode = 'learn';// learn/test
@@ -20,12 +21,7 @@ var levels = [
     ['bio'],
     ['face2']
 ];
-/*
-name (name to the face), Club team, hometown, position?, bio
 
-['When they were young(er)'],
-
-*/
 
 var start_time = new Date();
 var end_time = new Date();
@@ -51,6 +47,20 @@ jQuery(document).ready(function($) {
 		if (localStorage.activity_log){
 			activity_log = JSON.parse(localStorage.activity_log);
 		}
+		if (localStorage.level){
+			level = localStorage.level;
+			$('.quiz .quiz').parent().removeClass('active');
+			$('.quiz .quiz[data-index="'+level+'"').parent().addClass('active');
+		}
+		if (localStorage.mode){
+			mode = localStorage.mode;
+			$('.mode').parent().removeClass('active');
+			$('.mode[data-mode="'+mode+'"').parent().addClass('active');
+		}
+
+
+
+
 		has_class_no_touch = $('html').hasClass('no-touch');
 		//reset log
 		//activity_log = [];
@@ -209,9 +219,10 @@ jQuery(document).ready(function($) {
 	}
 	function get_random_groupindex(group){
 	    var random_index = Math.floor(Math.random()*group.length);
-	    //console.log(completed.toString(), random_index, $.inArray(random_index, completed));
+		// console.log(completed);
+	    console.log(completed.toString(), random_index, $.inArray(random_index, completed));
 	    if ( $.inArray(random_index, completed) < 0 ){
-	        //console.log('unique found');
+	        console.log('unique found');
 	        return random_index;
 	    }
 	    else if( completed.length == group.length ){
@@ -219,7 +230,7 @@ jQuery(document).ready(function($) {
 	        return random_index;
 	    }
 	    else{
-	        //console.log('potential repeat found');
+	        console.log('repeat found');
 	        return get_random_groupindex(group);
 	    }
 	}
@@ -241,87 +252,178 @@ jQuery(document).ready(function($) {
 
 
 	$('.content').on('click', '.answer', function(e){
-	    $(this).addClass('clicked');
-	    var is_correct = false;
-	        end_time = new Date();
-	        time = start_time - end_time;
+		console.log('clicked',$(this).attr('data-id'));
+		if (mode == 'learn' ){
+		    $(this).addClass('clicked');
+		    var is_correct = false;
+		        // end_time = new Date();
+		        // time = start_time - end_time;
 
-	    if ( $(this).hasClass('correct') ){
-	        is_correct = true;
-	        //calculate total clicked answers for this question
-	        var num_clicked = $('.clicked').length;
-	        if ( num_clicked == 1 || mode == 'test'){
-	            completed.push( parseInt($(this).attr('data-id')) );
-	        }
-	        if ( num_clicked == 1){
-	            num_correct++;
-	        }
-	    }
-	    
-	    if( $(this).find('img').attr('alt') != undefined ) {
-	        $(this).prepend( '<p class="label">' + $(this).find('img').attr('alt') +'</p>' );
-	    }
+		    if ( $(this).hasClass('correct') ){
+		        is_correct = true;
+		        //calculate total clicked answers for this question
+		        var num_clicked = $('.clicked').length;
 
-	        end_time = new Date();
-	        seconds = Math.floor( (start_time - end_time ) / -1000);
-	        var correct_per_minute = Math.round( (num_correct / seconds ) * 60 );
-	    //console.log( correct_per_minute );
-	    //update score + feedback
-	    $('.score').html('');
+		        completed.push( parseInt($(this).attr('data-id')) );
+		        if ( num_clicked == 1 ){
+		            // completed.push( parseInt($(this).attr('data-id')) );
+		            num_correct++;
+		        }
+		    }
+		    
+		    if( $(this).find('img').attr('alt') != undefined ) {
+		        $(this).prepend( '<p class="label">' + $(this).find('img').attr('alt') +'</p>' );
+		    }
 
-	    //if round complete
-	    //console.log(is_correct, num_correct, active_team.length, num_total);
-	    if( is_correct && num_correct == active_team.length ) {
-	        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
-	        // _gaq.push(['_trackEvent', 'Level', 'finish', levels[level][0], correct_per_minute ]);
-	        $('.score').html(kudos[get_random_index(kudos)] + ' You Know All ' + active_team.length + '! ');
-	        $('.score').append( parseInt(num_correct / (num_total+1)*100 ) + '% Accuracy! ');
-	        //$('.score').append('That\'s a rate of '+ correct_per_minute + ' correct answers a minute!');
-	        completed.length = 0;
-	        num_total = -1;
-	        num_correct = 0;
-	        is_correct = false;
-	        $('.score').append('<br />Play another level?');
-	        
-	        $('.content').html('');
-	    }
-	    //perfect score
-	    else if ( is_correct && num_correct > num_total ){
-	        $('.score').append(perfect[get_random_index(perfect)]);
-	        $('.score').append(' You know ' + num_correct + ' ' + active_team_title + ' player' );
-	        if (num_correct > 1){ $('.score').append('s'); }
-	        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
-	        //$('.score').append( seconds + ' seconds! ');
-	        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
-	    }
-	    //correct answer
-	    else if (is_correct){
-	        $('.score').append(kudos[get_random_index(kudos)]);
-	        $('.score').append(' You know ' + num_correct + ' ' + active_team_title + ' player' );
-	        if (num_correct > 1){ $('.score').append('s'); }
-	        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
-	        //$('.score').append( seconds + ' seconds! ');
-	        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
-	    }
-	    //incorrect answer
-	    else{
-	        $('.score').append(banter[get_random_index(banter)]);
-	        $('.score').append(' You know ' + num_correct + ' ' + active_team_title + ' player' );
-	        if (num_correct > 1){ $('.score').append('s'); }
-	        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
-	        //$('.score').append( seconds + ' seconds! ');
-	        // _gaq.push(['_trackEvent', 'Answer', 'incorrect', $(this).find('img').attr('alt') +' mistaken for ' + $(this).parent().find('.correct img').attr('alt') ]);
-	    }
+		        // end_time = new Date();
+		        // seconds = Math.floor( (start_time - end_time ) / -1000);
+		        // var correct_per_minute = Math.round( (num_correct / seconds ) * 60 );
+		    //console.log( correct_per_minute );
+		    //update score + feedback
+		    $('.score').html('');
 
-	    num_total++;
+		    //if round complete
+		    //console.log(is_correct, num_correct, active_team.length, num_total);
+		    if( is_correct && num_correct == active_team.length ) {
+		        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
+		        // _gaq.push(['_trackEvent', 'Level', 'finish', levels[level][0], correct_per_minute ]);
+		        $('.score').html(kudos[get_random_index(kudos)] + ' You Know All ' + active_team.length + '! ');
+		        $('.score').append( parseInt(num_correct / (num_total+1)*100 ) + '% Accuracy! ');
+		        //$('.score').append('That\'s a rate of '+ correct_per_minute + ' correct answers a minute!');
+		        completed.length = 0;
+		        num_total = -1;
+		        num_correct = 0;
+		        is_correct = false;
+		        $('.score').append('<br />Play another level?');
+		        
+		        $('.content').html('');
+		    }
+		    //perfect score
+		    else if ( is_correct && num_correct > num_total ){
+		        $('.score').append(perfect[get_random_index(perfect)]);
+		        $('.score').append(' You know ' + num_correct + ' ' + active_team_title + ' player' );
+		        if (num_correct > 1){ $('.score').append('s'); }
+		        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
+		        //$('.score').append( seconds + ' seconds! ');
+		        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
+		    }
+		    //correct answer
+		    else if (is_correct){
+		        $('.score').append(kudos[get_random_index(kudos)]);
+		        $('.score').append(' You know ' + num_correct + ' ' + active_team_title + ' player' );
+		        if (num_correct > 1){ $('.score').append('s'); }
+		        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
+		        //$('.score').append( seconds + ' seconds! ');
+		        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
+		    }
+		    //incorrect answer
+		    else{
+		        $('.score').append(banter[get_random_index(banter)]);
+		        $('.score').append(' You know ' + num_correct + ' ' + active_team_title + ' player' );
+		        if (num_correct > 1){ $('.score').append('s'); }
+		        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
+		        //$('.score').append( seconds + ' seconds! ');
+		        // _gaq.push(['_trackEvent', 'Answer', 'incorrect', $(this).find('img').attr('alt') +' mistaken for ' + $(this).parent().find('.correct img').attr('alt') ]);
+		    }
 
-	    if( is_correct ){
-	        //num_total++;
-	        //advance to next question
-	        setTimeout(function() {
-	            new_question();
-	        }, 750);
-	    }
+		    num_total++;
+
+		    if( is_correct ){
+		        //num_total++;
+		        //advance to next question
+		        setTimeout(function() {
+		            new_question();
+		        }, 750);
+		    }
+		}
+		else if( mode == 'test'){
+
+		    $(this).addClass('clicked');
+		    var is_correct = false;
+		        // end_time = new Date();
+		        // time = start_time - end_time;
+
+		    if ( $(this).hasClass('correct') ){
+		        is_correct = true;
+		        //calculate total clicked answers for this question
+		        var num_clicked = $('.clicked').length;
+		        if ( num_clicked == 1 ){
+		            num_correct++;
+		        }
+		    }
+		    else{
+		    	num_incorrect++;
+		    }
+		    console.log('pushing to complete list: '+$('.correct').attr('data-id'), $('.correct').find('img').attr('alt') );
+		    completed.push( parseInt($('.correct').attr('data-id')) );
+		    
+		    if( $(this).find('img').attr('alt') != undefined ) {
+		        $(this).prepend( '<p class="label">' + $(this).find('img').attr('alt') +'</p>' );
+		    }
+
+		        // end_time = new Date();
+		        // seconds = Math.floor( (start_time - end_time ) / -1000);
+		        // var correct_per_minute = Math.round( (num_correct / seconds ) * 60 );
+		    //console.log( correct_per_minute );
+		    //update score + feedback
+		    $('.score').html('');
+
+		    //round complete
+		    if( parseInt(active_team.length - completed.length) <= 0 ) {
+		        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
+		        // _gaq.push(['_trackEvent', 'Level', 'finish', levels[level][0], correct_per_minute ]);
+		        $('.score').html('Test Complete. You Know ' + num_correct + ' of ' + active_team.length + ' players! ');
+		        $('.score').append( parseInt(num_correct / (num_total+1)*100 ) + '% Accuracy! ');
+		        //$('.score').append('That\'s a rate of '+ correct_per_minute + ' correct answers a minute!');
+		        completed.length = 0;
+		        num_total = -1;
+		        num_correct = 0;
+		        is_correct = false;
+		        $('.score').append('<br />Play another level?');
+		        
+		        $('.content').html('');
+		    }
+		    //not yet complete
+		    else{
+			    //perfect score
+			    if ( is_correct && num_correct > num_total ){
+			        $('.score').append(perfect[get_random_index(perfect)]);
+			        $('.score').append(' You know ' + num_correct + ' of ' + completed.length + ' ' + active_team_title + ' players' );
+			        // if (num_correct > 1){ $('.score').append('s'); }
+			        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
+			        //$('.score').append( seconds + ' seconds! ');
+			        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
+			    }
+			    //correct answer
+			    else if (is_correct){
+			        $('.score').append(kudos[get_random_index(kudos)]);
+			        $('.score').append(' You know ' + num_correct + ' of ' + completed.length + ' ' + active_team_title + ' players' );
+			        // if (num_correct > 1){ $('.score').append('s'); }
+			        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
+			        //$('.score').append( seconds + ' seconds! ');
+			        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
+			    }
+			    //incorrect answer
+			    else{
+			        $('.score').append(banter[get_random_index(banter)]);
+			        $('.score').append(' You know ' + num_correct + ' of ' + completed.length + ' ' + active_team_title + ' players' );
+			        // if (num_correct > 1){ $('.score').append('s'); }
+			        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
+			        //$('.score').append( seconds + ' seconds! ');
+			        // _gaq.push(['_trackEvent', 'Answer', 'incorrect', $(this).find('img').attr('alt') +' mistaken for ' + $(this).parent().find('.correct img').attr('alt') ]);
+			    }
+
+			    num_total++;
+
+			    // if( is_correct ){
+			        //num_total++;
+			        //advance to next question
+			        setTimeout(function() {
+			            new_question();
+			        }, 750);
+			    // }
+			}
+		}
 	});
 
 
@@ -342,16 +444,18 @@ jQuery(document).ready(function($) {
 	});
 	$('.quiz .quiz').on('click touch', function(e){
 		//set level
-		$('.quiz .quiz').removeClass('active');
-		$(this).addClass('active');
+		$('.quiz .quiz').parent().removeClass('active');
+		$(this).parent().addClass('active');
 		level = $(this).data('index');
+		localStorage.level = level;
 		// console.log(level, levels[level][0]);
 		game_players();
 	});
 	$('.mode').on('click touch', function(e){
-		$('.mode').removeClass('active');
-		$(this).addClass('active');
+		$('.mode').parent().removeClass('active');
+		$(this).parent().addClass('active');
 		mode = $(this).data('mode');
+		localStorage.mode = mode;
 		// console.log('mode set to', mode);
 		game_players();
 	});

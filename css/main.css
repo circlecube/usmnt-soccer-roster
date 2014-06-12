@@ -401,6 +401,9 @@ body,
     width: 3em;
     border-left: 1px solid rgba(255, 255, 255, 0.3);
 }*/
+.mm-menu .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu .mm-list > li.mm-selected > span {
+    background: transparent;
+}
 .mm-list > li.active {
     background: rgba(0, 0, 0, 0.1); 
 }
