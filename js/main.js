@@ -78,9 +78,9 @@ jQuery(document).ready(function($) {
 		//https://github.com/phonegap-build/GAPlugin/blob/c928e353feb1eb75ca3979b129b10b216a27ad59/README.md
 		//gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Button", "Click", "event only", 1);
 	    gaPlugin = window.plugins.gaPlugin;
-//	    gaPlugin.init(nativePluginResultHandler, nativePluginErrorHandler, "UA-1466312-12", 10);
+	    gaPlugin.init(nativePluginResultHandler, nativePluginErrorHandler, "UA-1466312-13", 10);
 
-		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "Begin", quiz_article);
+		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "Begin");
 	}
 	
 
@@ -135,7 +135,7 @@ jQuery(document).ready(function($) {
 	function make_question(group, answer_index){
 	    //get mc answers
 	    var mc_answers = get_random_mc_answers(group, answer_index);
-	    console.log(levels[level][0]);
+	    //console.log(levels[level][0]);
 	    switch(levels[level][0]) {
 	        case 'bio': //photo
 	            $('.content').html('<h2 class="question question_bio">' + group[answer_index].bio + '</h2>');
@@ -220,9 +220,9 @@ jQuery(document).ready(function($) {
 	function get_random_groupindex(group){
 	    var random_index = Math.floor(Math.random()*group.length);
 		// console.log(completed);
-	    console.log(completed.toString(), random_index, $.inArray(random_index, completed));
+	    //console.log(completed.toString(), random_index, $.inArray(random_index, completed));
 	    if ( $.inArray(random_index, completed) < 0 ){
-	        console.log('unique found');
+	        //console.log('unique found');
 	        return random_index;
 	    }
 	    else if( completed.length == group.length ){
@@ -230,7 +230,7 @@ jQuery(document).ready(function($) {
 	        return random_index;
 	    }
 	    else{
-	        console.log('repeat found');
+	        //console.log('repeat found');
 	        return get_random_groupindex(group);
 	    }
 	}
@@ -252,7 +252,7 @@ jQuery(document).ready(function($) {
 
 
 	$('.content').on('click', '.answer', function(e){
-		console.log('clicked',$(this).attr('data-id'));
+		//console.log('clicked',$(this).attr('data-id'));
 		if (mode == 'learn' ){
 		    $(this).addClass('clicked');
 		    var is_correct = false;
@@ -354,7 +354,7 @@ jQuery(document).ready(function($) {
 		    else{
 		    	num_incorrect++;
 		    }
-		    console.log('pushing to complete list: '+$('.correct').attr('data-id'), $('.correct').find('img').attr('alt') );
+		    //console.log('pushing to complete list: '+$('.correct').attr('data-id'), $('.correct').find('img').attr('alt') );
 		    completed.push( parseInt($('.correct').attr('data-id')) );
 		    
 		    if( $(this).find('img').attr('alt') != undefined ) {
@@ -513,7 +513,7 @@ jQuery(document).ready(function($) {
 		//console.log('nativePluginErrorHandler', 'fail');
 	}
 	function goingAway() {
-		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "End", quiz_article);
+		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "End");
 	    gaPlugin.exit(nativePluginResultHandler, nativePluginErrorHandler);
 	}
 
