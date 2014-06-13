@@ -26,9 +26,9 @@ var levels = [
 var start_time = new Date();
 var end_time = new Date();
 var seconds = 0; // (start_time - end_time)/-1000;
-var perfect = ['Perfect!', 'Flawless!', 'Amazing!', 'On a Roll!', 'Impeccable!', 'Unblemished!', '=D'];
-var kudos =  ['Great!', 'Awesome!', 'Well done,', 'You\'re Smart,', 'Crazy Good!', 'Feelin\' it!', 'Dynamite!', 'Gold Star!', 'Impressive!', 'Exactly!', 'Correct!', '=)', 'Bingo!', 'On the nose!', 'Right!', 'Right on!', 'Righteous!', '', 'Inspiring!', 'Precisely!', 'Exactly!', 'Right as Rain!', '', 'GOOOAL!', 'Nice Shot!', 'On Target!'];
-var banter = ['Ouch!', 'Doh!', 'Fail!', 'Focus, only', 'Finger Slip?', 'Don\'t Give Up!', 'Good Grief!', 'Embarrasing!', 'Wrong!', 'Miss!', 'Incorrect!', '=(', 'You Blew It!', 'Nope!', 'You Must Be Joking!', 'Woah!', 'Need Help?', 'Try Studying,', 'Incorrect!', 'False!', 'Make sure to keep your eyes open.', 'Try Again,', 'Nice try, '];
+var perfect = ['Perfect!', 'Flawless!', 'Amazing!', 'On a Roll!', 'Impeccable!', 'Unblemished!', "Honorary American Outlaw!"];
+var kudos =  ['Great!', 'Awesome!', 'Well done,', 'You\'re Smart,', 'Crazy Good!', 'Feelin\' it!', 'Dynamite!', 'Gold Star!', 'Impressive!', 'Exactly!', 'Correct!', 'Bingo!', 'On the nose!', 'Right!', 'Right on!', 'Righteous!', '', 'Inspiring!', 'Precisely!', 'Exactly!', 'Right as Rain!', '', 'GOOOAL!', 'Nice Shot!', 'On Target!'];
+var banter = ['Ouch!', 'Doh!', 'Fail!', 'Focus, only', 'Finger Slip?', 'Don\'t Give Up!', 'Good Grief!', 'Embarrasing!', 'Wrong!', 'Miss!', 'Incorrect!', 'You Blew It!', 'Nope!', 'You Must Be Joking!', 'Woah!', 'Need Help?', 'Try Studying,', 'Incorrect!', 'False!', 'Make sure to keep your eyes open.', 'Try Again,', 'Nice try, '];
 
 
 var active_team = usmnt_players;
@@ -117,7 +117,13 @@ jQuery(document).ready(function($) {
 							player: active_team[i]
 						});
 		}
-
+		for ( var i = 0; i < usmnt_coaches.length; i++){
+			players += list_player_template(
+						{
+							index: i, 
+							player: usmnt_coaches[i]
+						});
+		}
 		$('.title').text( 'USMNT Roster' );
 		$('.content').html(players);
 
@@ -179,23 +185,23 @@ jQuery(document).ready(function($) {
 	    
 
 	    var correct = $.inArray(answer_index, mc_answers);
-	    $('.answer_'+correct).parent().addClass('correct');
+	    $('.answer_'+correct).addClass('correct');
 	}
 	function get_answer_div(group, mc_answers, index, img){
 	    var answer_div = "";
 	    switch(levels[level][0]) {
 	        //photo and young photo as default
 	        case 'name': //name
-	            answer_div = '<div class="answer" data-id="' + mc_answers[index] + '"><p   class="answer_' + index + ' label">' + group[mc_answers[index]].player + '</p></div>';
+	            answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '"><p   class="answer_' + index + ' label">' + group[mc_answers[index]].player + '</p></div>';
 	          break;
 	        case 'number': //number
-	        	answer_div = '<div class="answer" data-id="' + mc_answers[index] + '"><img class="answer_' + index + '" src="img/' + group[mc_answers[index]].img + '" alt="' + group[mc_answers[index]].player + ' #' + group[mc_answers[index]].number + '" /></div>';
+	        	answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + ' #' + group[mc_answers[index]].number + '"></div>';
 	          break;
 	        case 'face2': //name
-	        	answer_div = '<div class="answer" data-id="' + mc_answers[index] + '"><img class="answer_' + index + '" src="img/' + group[mc_answers[index]].img2 + '" alt="' + group[mc_answers[index]].player + '" /></div>';
+	        	answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img2 + '); background-position:'+ group[mc_answers[index]].img2_pos + ';" data-alt="' + group[mc_answers[index]].player + ' #' + group[mc_answers[index]].number + '"></div>';
 	          break;
 	        default: //face, bio
-	            answer_div = '<div class="answer" data-id="' + mc_answers[index] + '"><img class="answer_' + index + '" src="img/' + group[mc_answers[index]].img + '" alt="' + group[mc_answers[index]].player + '" /></div>';
+	            answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
 	          //error
 	    }
 	    return answer_div;
@@ -264,15 +270,14 @@ jQuery(document).ready(function($) {
 		        //calculate total clicked answers for this question
 		        var num_clicked = $('.clicked').length;
 
-		        completed.push( parseInt($(this).attr('data-id')) );
 		        if ( num_clicked == 1 ){
-		            // completed.push( parseInt($(this).attr('data-id')) );
+		        	completed.push( parseInt($(this).attr('data-id')) );
 		            num_correct++;
 		        }
 		    }
 		    
-		    if( $(this).find('img').attr('alt') != undefined ) {
-		        $(this).prepend( '<p class="label">' + $(this).find('img').attr('alt') +'</p>' );
+		    if( $(this).data('alt') != undefined ) {
+		        $(this).prepend( '<p class="label">' + $(this).data('alt') +'</p>' );
 		    }
 
 		        // end_time = new Date();
@@ -285,8 +290,10 @@ jQuery(document).ready(function($) {
 		    //if round complete
 		    //console.log(is_correct, num_correct, active_team.length, num_total);
 		    if( is_correct && num_correct == active_team.length ) {
-		        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
-		        // _gaq.push(['_trackEvent', 'Level', 'finish', levels[level][0], correct_per_minute ]);
+		        if (gaPlugin) {
+		        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Answer", "Correct", $(this).data('alt') );
+		        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Round", "End", levels[level][0] + ' ' + mode, parseInt(num_correct / (num_total+1)*100 ) );
+		        }
 		        $('.score').html(kudos[get_random_index(kudos)] + ' You Know All ' + active_team.length + '! ');
 		        $('.score').append( parseInt(num_correct / (num_total+1)*100 ) + '% Accuracy! ');
 		        //$('.score').append('That\'s a rate of '+ correct_per_minute + ' correct answers a minute!');
@@ -305,7 +312,9 @@ jQuery(document).ready(function($) {
 		        if (num_correct > 1){ $('.score').append('s'); }
 		        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
 		        //$('.score').append( seconds + ' seconds! ');
-		        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
+		        if (gaPlugin) {
+					gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Answer", "Correct", $(this).data('alt') );
+				}
 		    }
 		    //correct answer
 		    else if (is_correct){
@@ -314,7 +323,9 @@ jQuery(document).ready(function($) {
 		        if (num_correct > 1){ $('.score').append('s'); }
 		        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
 		        //$('.score').append( seconds + ' seconds! ');
-		        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
+		        if (gaPlugin) {
+			        gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Answer", "Correct", $(this).data('alt') );
+			    }
 		    }
 		    //incorrect answer
 		    else{
@@ -323,7 +334,9 @@ jQuery(document).ready(function($) {
 		        if (num_correct > 1){ $('.score').append('s'); }
 		        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
 		        //$('.score').append( seconds + ' seconds! ');
-		        // _gaq.push(['_trackEvent', 'Answer', 'incorrect', $(this).find('img').attr('alt') +' mistaken for ' + $(this).parent().find('.correct img').attr('alt') ]);
+		        if (gaPlugin) {
+		        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Answer", "Incorrect", $(this).parent().find('.correct').data('alt') );
+				}
 		    }
 
 		    num_total++;
@@ -354,11 +367,11 @@ jQuery(document).ready(function($) {
 		    else{
 		    	num_incorrect++;
 		    }
-		    //console.log('pushing to complete list: '+$('.correct').attr('data-id'), $('.correct').find('img').attr('alt') );
+		    //console.log('pushing to complete list: '+$('.correct').attr('data-id'), $('.correct').data('alt') );
 		    completed.push( parseInt($('.correct').attr('data-id')) );
 		    
-		    if( $(this).find('img').attr('alt') != undefined ) {
-		        $(this).prepend( '<p class="label">' + $(this).find('img').attr('alt') +'</p>' );
+		    if( $(this).data('alt') != undefined ) {
+		        $(this).prepend( '<p class="label">' + $(this).data('alt') +'</p>' );
 		    }
 
 		        // end_time = new Date();
@@ -370,8 +383,10 @@ jQuery(document).ready(function($) {
 
 		    //round complete
 		    if( parseInt(active_team.length - completed.length) <= 0 ) {
-		        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
-		        // _gaq.push(['_trackEvent', 'Level', 'finish', levels[level][0], correct_per_minute ]);
+		        if (gaPlugin) {
+		        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Answer", "Correct", $(this).data('alt') );
+		        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Round", "End", levels[level][0] + ' ' + mode, parseInt(num_correct / (num_total+1)*100 ) );
+		        }
 		        $('.score').html('Test Complete. You Know ' + num_correct + ' of ' + active_team.length + ' players! ');
 		        $('.score').append( parseInt(num_correct / (num_total+1)*100 ) + '% Accuracy! ');
 		        //$('.score').append('That\'s a rate of '+ correct_per_minute + ' correct answers a minute!');
@@ -392,7 +407,9 @@ jQuery(document).ready(function($) {
 			        // if (num_correct > 1){ $('.score').append('s'); }
 			        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
 			        //$('.score').append( seconds + ' seconds! ');
-			        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
+			        if (gaPlugin) {
+			        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Answer", "Correct", $(this).data('alt'));
+			        }
 			    }
 			    //correct answer
 			    else if (is_correct){
@@ -401,7 +418,9 @@ jQuery(document).ready(function($) {
 			        // if (num_correct > 1){ $('.score').append('s'); }
 			        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
 			        //$('.score').append( seconds + ' seconds! ');
-			        // _gaq.push(['_trackEvent', 'Answer', 'correct', $(this).find('img').attr('alt') ]);
+			        if (gaPlugin) {
+			        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Answer", "Correct", $(this).data('alt'));
+					}
 			    }
 			    //incorrect answer
 			    else{
@@ -410,7 +429,9 @@ jQuery(document).ready(function($) {
 			        // if (num_correct > 1){ $('.score').append('s'); }
 			        $('.score').append( '! ' + parseInt(active_team.length - completed.length)  + ' left. ');
 			        //$('.score').append( seconds + ' seconds! ');
-			        // _gaq.push(['_trackEvent', 'Answer', 'incorrect', $(this).find('img').attr('alt') +' mistaken for ' + $(this).parent().find('.correct img').attr('alt') ]);
+			        if (gaPlugin) {
+			        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Answer", "Incorrect", $(this).parent().find('.correct').data('alt') );
+					}
 			    }
 
 			    num_total++;

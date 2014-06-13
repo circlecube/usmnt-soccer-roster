@@ -627,9 +627,15 @@ body.font-small {
     width: 50%;
     float:left;
     position:relative;
+    padding-top: 66%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
 }
 .answer.list{
     width:100%;
+    height:auto;
+    padding:0;
 }
 .answer img {
     width: 100%;
@@ -661,4 +667,8 @@ body.font-small {
     padding: 1em;
     color: #4380b7;
     clear:both;
+}
+
+.list_img{
+    
 }

@@ -58,9 +58,9 @@
 
         <script id="list_player" type="text/x-handlebars-template">
             <article class='answer list' >
-                <img src='img/{{player.img}}'>
-                <p class="label">{{player.player}} #{{player.number}}</p>
-                <img src='img/{{player.img2}}'>
+                <img class="list_img" src='img/{{player.img}}'>
+                <p class="label">{{player.player}}  {{#if player.number}}#{{player.number}}{{/if}}</p>
+                <img class="list_img2" src='img/{{player.img2}}'>
                 <p class="stats question_bio">{{player.pos}} from {{player.hometown}}, plays for {{player.club}}</p>
                 <p class="question_bio">{{player.bio}}</p>
             </article>
