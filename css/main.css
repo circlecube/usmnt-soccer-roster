@@ -608,12 +608,16 @@ body.font-small {
     padding: .5em 0;
 }
 
-
+.title{    
+    font-family:'UnitedSansSmCdHv','Georgia',serif;
+    font-size: 18px;
+}
 .question {
     font-family:'UnitedSansCdHv','Georgia',serif;
     text-transform: uppercase;
     font-size: 36px;
     text-align:center;
+    margin: .1em 0;
     /*color: #4380b7;*/
 }
 .question_bio {
@@ -670,5 +674,5 @@ body.font-small {
 }
 
 .list_img{
-    
+
 }

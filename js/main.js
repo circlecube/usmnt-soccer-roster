@@ -124,7 +124,7 @@ jQuery(document).ready(function($) {
 							player: usmnt_coaches[i]
 						});
 		}
-		$('.title').text( 'USMNT Roster' );
+		// $('.title').text( 'USMNT Roster' );
 		$('.content').html(players);
 
 		$('article dd').each(function(idx,e){
@@ -198,7 +198,7 @@ jQuery(document).ready(function($) {
 	        	answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + ' #' + group[mc_answers[index]].number + '"></div>';
 	          break;
 	        case 'face2': //name
-	        	answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img2 + '); background-position:'+ group[mc_answers[index]].img2_pos + ';" data-alt="' + group[mc_answers[index]].player + ' #' + group[mc_answers[index]].number + '"></div>';
+	        	answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img2 + '); background-position:'+ group[mc_answers[index]].img2_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
 	          break;
 	        default: //face, bio
 	            answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
