@@ -57,10 +57,12 @@
     <div class="content">
 
         <script id="list_player" type="text/x-handlebars-template">
-            <article class='answer' >
-                <p class="label">{{player.player}}</p>
-                <!-- <p class="stats">#{{player.number}} {{player.pos}} - {{player.player}}, from {{player.hometown}}, plays for {{player.club}}</p> -->
+            <article class='answer list' >
                 <img src='img/{{player.img}}'>
+                <p class="label">{{player.player}} #{{player.number}}</p>
+                <img src='img/{{player.img2}}'>
+                <p class="stats question_bio">{{player.pos}} from {{player.hometown}}, plays for {{player.club}}</p>
+                <p class="question_bio">{{player.bio}}</p>
             </article>
         </script>
 

@@ -628,6 +628,9 @@ body.font-small {
     float:left;
     position:relative;
 }
+.answer.list{
+    width:100%;
+}
 .answer img {
     width: 100%;
     height: auto;
@@ -645,6 +648,10 @@ body.font-small {
     padding: 8px 0;
     text-align:center;
     border-bottom: 12px solid #d31346;
+    margin:0;
+}
+.answer.list .label{
+    position:relative;
 }
 .score{
     font-family:'UnitedSansSmCdHv','Georgia',serif;
