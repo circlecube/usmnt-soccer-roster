@@ -104,6 +104,7 @@ jQuery(document).ready(function($) {
 	});
 
 	function game_players(){
+		$('.score').html('');
 		new_question();
 	}
 
