@@ -2,13 +2,17 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.usmntsoccerrosterfree"
-        versionCode="170" 
-        version   = "0.1.7">
+        versionCode="180" 
+        version   = "0.1.8">
 
     <name>WORLD CUP USA SOCCER TEAM Free</name>
 
     <description>
         Get to know the World Cup Team for the United States of America! This app displays the 23 man soccer/football roster for the US Men's National Team. Prepare for the world cup and learn details about these world class players. Learn their number so you know who to cheer for from behind and be ready to impress friends. A must have for any American Outlaw.
+
+        "Great resource to learn more about the players while you watch the matches!"
+
+        I BELIEVE THAT WE CAN WIN!
     </description>
 
     <author href="http://circlecube.com" email="evan@circlecube.com">
