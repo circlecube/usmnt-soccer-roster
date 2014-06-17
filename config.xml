@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.usmntsoccerrosterfree"
-        versionCode="180" 
-        version   = "0.1.8">
+        versionCode="200" 
+        version   = "0.2.0">
 
     <name>WORLD CUP USA SOCCER TEAM Free</name>
 
@@ -18,12 +18,12 @@
     <author href="http://circlecube.com" email="evan@circlecube.com">
         Evan Mullins 
     </author>
-    <gap:plugin name="com.adobe.plugins.gaplugin" />
     <gap:platform name="android" />
-    <preference name="phonegap-version" value="3.3.0" />
+    <gap:plugin name="nl.x-services.plugins.socialsharing" />
+    <gap:plugin name="com.adobe.plugins.gaplugin" />
+    <preference name="phonegap-version" value="3.4.0" />
     <preference name="orientation" value="portrait"/>
     <preference name="fullscreen" value="true" />
-    <icon src="icon-large-free.png" />
-    <gap:splash src="splash.png" />
+    <icon src="icon-large.png" />
     <preference name="permissions" value="none"/>
 </widget>

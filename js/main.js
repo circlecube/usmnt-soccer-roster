@@ -12,6 +12,7 @@ var has_class_no_touch = false;
 var num_total = 0;
 var num_correct = 0;
 var num_incorrect = 0;
+var score_percent = 0;
 var level = 0;
 var num_levels = 4;
 var mode = 'learn';// learn/test
@@ -105,6 +106,11 @@ jQuery(document).ready(function($) {
 
 	function game_players(){
 		$('.score').html('');
+		completed = [];
+		num_total = 0;
+		num_correct = 0;
+		num_incorrect = 0;
+		score_percent = 0;
 		new_question();
 	}
 
@@ -296,7 +302,7 @@ jQuery(document).ready(function($) {
 		        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Round", "End", levels[level][0] + ' ' + mode, parseInt(num_correct / (num_total+1)*100 ) );
 		        }
 		        $('.score').html(kudos[get_random_index(kudos)] + ' You Know All ' + active_team.length + '! ');
-		        $('.score').append( parseInt(num_correct / (num_total+1)*100 ) + '% Accuracy! ');
+		        $('.score').append( score_percent + '% Accuracy! ');
 		        //$('.score').append('That\'s a rate of '+ correct_per_minute + ' correct answers a minute!');
 		        completed.length = 0;
 		        num_total = -1;
@@ -339,6 +345,10 @@ jQuery(document).ready(function($) {
 		        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Answer", "Incorrect", $(this).parent().find('.correct').data('alt') );
 				}
 		    }
+
+		    //share
+		    score_percent = parseInt(num_correct / (num_total+1)*100 );
+		    $('.score').append('<div class="share_button" data-score="' + score_percent + '">Share your score!</div>');
 
 		    num_total++;
 
@@ -389,7 +399,7 @@ jQuery(document).ready(function($) {
 		        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Round", "End", levels[level][0] + ' ' + mode, parseInt(num_correct / (num_total+1)*100 ) );
 		        }
 		        $('.score').html('Test Complete. You Know ' + num_correct + ' of ' + active_team.length + ' players! ');
-		        $('.score').append( parseInt(num_correct / (num_total+1)*100 ) + '% Accuracy! ');
+		        $('.score').append( score_percent + '% Accuracy! ');
 		        //$('.score').append('That\'s a rate of '+ correct_per_minute + ' correct answers a minute!');
 		        completed.length = 0;
 		        num_total = -1;
@@ -434,6 +444,10 @@ jQuery(document).ready(function($) {
 			        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Answer", "Incorrect", $(this).parent().find('.correct').data('alt') );
 					}
 			    }
+
+			    //share
+			    score_percent = parseInt(num_correct / (num_total+1)*100 );
+			    $('.score').append('<div class="share_button" data-score="' + score_percent + '">Share your score!</div>');
 
 			    num_total++;
 
@@ -482,10 +496,38 @@ jQuery(document).ready(function($) {
 		game_players();
 	});
 	$('.about').on('click touch', function(e){
-		show_about();
+		//show_about();
 	});
 	$('.activity_log').on('click touch', function(e){
 		show_activity_log();
+	});
+	$('.share').on('click touch', function(e){
+		//console.log('share social_sharing');
+	  	window.plugins.socialsharing.available(function(isAvailable) {
+		    if (isAvailable) {
+		    	var message = 'Do you know the US World Cup Team? Take the test in this mobile app!';
+				var subject = 'I Believe That We Can Win!';
+				// var files = 'https://lh4.ggpht.com/2wcDkVR7qhed98APHGy9NjfFHjHmTrhrgmrnQ083sDvQVNIR6LiLsOv08X1DvgElb_E';
+				var files = null;
+				var url = 'https://play.google.com/store/apps/details?id=com.circlecube.usmntsoccerroster';
+				window.plugins.socialsharing.share(message, subject, files, url );
+		    }
+		});
+	});
+	$('.score').on('click touch', '.share_button', function(e){
+		//console.log('share_button social_sharing');
+
+	  	window.plugins.socialsharing.available(function(isAvailable) {
+		    if (isAvailable) {
+		    	var message = 'Do you know the US World Cup Team? I do! Just took the test and got ' + $('.share_button').data('score') + '% correct!';
+				var subject = 'I Believe That We Can Win!';
+				// var files = 'https://lh4.ggpht.com/2wcDkVR7qhed98APHGy9NjfFHjHmTrhrgmrnQ083sDvQVNIR6LiLsOv08X1DvgElb_E';
+				var files = null;
+				var url = 'https://play.google.com/store/apps/details?id=com.circlecube.usmntsoccerroster';
+				window.plugins.socialsharing.share(message, subject, files, url );
+		    }
+		});
+	
 	});
 	$('.content').on('click touch', '.button_skip', function(e){
 		game_players();
@@ -504,9 +546,6 @@ jQuery(document).ready(function($) {
 		show_activity_log();
 	})
 	function show_about(){
-		var content = '<dt>' + langs[language].about + ': ' + langs[language].title_plural + '</dt>';
-		content += '<dd>' + langs[language].about_text + '</dd>';
-
 		$('.content').html( content );
 	}
 	function show_activity_log(){
