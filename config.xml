@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.usmntsoccerrosterfree"
-        versionCode="200" 
-        version   = "0.2.0">
+        versionCode="210" 
+        version   = "0.2.1">
 
     <name>WORLD CUP USA SOCCER TEAM Free</name>
 
@@ -24,6 +24,6 @@
     <preference name="phonegap-version" value="3.4.0" />
     <preference name="orientation" value="portrait"/>
     <preference name="fullscreen" value="true" />
-    <icon src="icon-large.png" />
+    <icon src="icon-large-free.png" />
     <preference name="permissions" value="none"/>
 </widget>
