@@ -110,7 +110,7 @@ var usmnt_players = [
 	 'caps': 87,
 	 'goals': 12,
 	 'number': 4,
-	 'bio':"Son of former U.S. coach Bob Bradley. Trained with U.S. World Cup team in 2006 and made his national team appearances that May in exhibition against Venezuela. Scored against tying goal vs. Slovenia in 2-2 draw during 2010 World Cup. Had two goals against Mexico in 2009 World Cup qualifier. Received red card vs. Spain in 2009 Confederations Cup semifinal, causing him to miss final. Played twice at the 2008 Olympics. Began pro career with New York-New Jersey MetroStars (2004-05), and has gone on to play for Heerenveen (2006-08), Borussia Moenchengladbach (2008-11), Aston Villa (2011), Chievo Verona (2011-12) and Roma (2012-14). Signed in January with Toronto."
+	 'bio':"Son of former U.S. coach Bob Bradley. Trained with U.S. World Cup team in 2006 and made his national team appearances that May in exhibition against Venezuela. Scored tying goal vs. Slovenia in 2-2 draw during 2010 World Cup. Had two goals against Mexico in 2009 World Cup qualifier. Received red card vs. Spain in 2009 Confederations Cup semifinal, causing him to miss final. Played twice at the 2008 Olympics. Began pro career with New York-New Jersey MetroStars (2004-05), and has gone on to play for Heerenveen (2006-08), Borussia Moenchengladbach (2008-11), Aston Villa (2011), Chievo Verona (2011-12) and Roma (2012-14). Signed in January with Toronto."
 	},
 	{'player': 'John Brooks',
 	 'pos': 'Defender',
