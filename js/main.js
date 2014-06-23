@@ -20,9 +20,10 @@ var levels = [
     ['face'],
     ['number'],
     ['bio'],
-    ['face2']
+    ['face2'],
+    ['stats']
 ];
-
+var free_version = false;
 
 var start_time = new Date();
 var end_time = new Date();
@@ -51,16 +52,19 @@ jQuery(document).ready(function($) {
 		if (localStorage.level){
 			level = localStorage.level;
 			$('.quiz .quiz').parent().removeClass('active');
-			$('.quiz .quiz[data-index="'+level+'"').parent().addClass('active');
+			$('.quiz .quiz[data-index="'+level+'"]').parent().addClass('active');
 		}
 		if (localStorage.mode){
 			mode = localStorage.mode;
 			$('.mode').parent().removeClass('active');
-			$('.mode[data-mode="'+mode+'"').parent().addClass('active');
+			$('.mode[data-mode="'+mode+'"]').parent().addClass('active');
 		}
 
+		if (free_version) {
+			update_free();
+		}
 
-
+		set_ages();
 
 		has_class_no_touch = $('html').hasClass('no-touch');
 		//reset log
@@ -75,6 +79,37 @@ jQuery(document).ready(function($) {
 		game_players();
 	}
 
+	function update_free(){
+		//set attributes/classes on top level quiz
+		$('.quiz_begin').addClass('quiz').addClass('quiz_face');
+		$('.quiz_begin').attr('data-index', 0);
+		$('.quiz_begin').attr('data-value', 'face');
+		//remove levels
+		$('.quiz_type').remove();
+		$('.quiz .mm-subopen').remove();
+
+		//add upgrade link
+		$('.menu .share').parent().after('<li><a href="market://details?id=com.circlecube.usmntsoccerroster" class="about">Upgrade</a></li>');
+		//remove list all link
+		$('.list_all').parent().remove();
+		//
+	}
+	function set_ages(){
+		for ( var i = 0; i < active_team.length; i++){
+			active_team[i].age = get_age(active_team[i].birthdate);
+			console.log(active_team[i].player, active_team[i].age);
+		}
+	}
+	function get_age(dateString) {
+	    var today = new Date();
+	    var birthDate = new Date(dateString);
+	    var age = today.getFullYear() - birthDate.getFullYear();
+	    var m = today.getMonth() - birthDate.getMonth();
+	    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+	        age--;
+	    }
+	    return age;
+	}
 	function onDeviceReady() {
 		//https://github.com/phonegap-build/GAPlugin/blob/c928e353feb1eb75ca3979b129b10b216a27ad59/README.md
 		//gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Button", "Click", "event only", 1);
@@ -152,6 +187,12 @@ jQuery(document).ready(function($) {
 	    switch(levels[level][0]) {
 	        case 'bio': //photo
 	            $('.content').html('<h2 class="question question_bio">' + group[answer_index].bio + '</h2>');
+	            for (var i = 0; i < 4; i++){
+	                $('.content').append(get_answer_div(group,mc_answers,i,2));
+	            } 
+	          break;
+	        case 'stats': //photo
+	            $('.content').html('<h2 class="question question_bio">' + group[answer_index].age + ' years old ' + group[answer_index].ht + ' & ' + group[answer_index].wt + 'lbs, ' + group[answer_index].goals + ' goals in ' + group[answer_index].caps + ' appearances</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 
@@ -302,7 +343,7 @@ jQuery(document).ready(function($) {
 		        	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Round", "End", levels[level][0] + ' ' + mode, parseInt(num_correct / (num_total+1)*100 ) );
 		        }
 		        $('.score').html(kudos[get_random_index(kudos)] + ' You Know All ' + active_team.length + '! ');
-		        $('.score').append( parseInt(num_correct / (num_total+1)*100 ) + '% Accuracy! ');
+		        $('.score').append( score_percent + '% Accuracy! ');
 		        //$('.score').append('That\'s a rate of '+ correct_per_minute + ' correct answers a minute!');
 		        completed.length = 0;
 		        num_total = -1;
@@ -478,7 +519,7 @@ jQuery(document).ready(function($) {
 	$('body').on('touchend', function(){
 		touching = false;
 	});
-	$('.quiz .quiz').on('click touch', function(e){
+	$('.quiz').on('click touch', '.quiz', function(e){
 		//set level
 		$('.quiz .quiz').parent().removeClass('active');
 		$(this).parent().addClass('active');
@@ -496,7 +537,7 @@ jQuery(document).ready(function($) {
 		game_players();
 	});
 	$('.about').on('click touch', function(e){
-		show_about();
+		//show_about();
 	});
 	$('.activity_log').on('click touch', function(e){
 		show_activity_log();
@@ -546,9 +587,6 @@ jQuery(document).ready(function($) {
 		show_activity_log();
 	})
 	function show_about(){
-		var content = '<dt>' + langs[language].about + ': ' + langs[language].title_plural + '</dt>';
-		content += '<dd>' + langs[language].about_text + '</dd>';
-
 		$('.content').html( content );
 	}
 	function show_activity_log(){

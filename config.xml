@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.usmntsoccerroster"
-        versionCode="230" 
-        version   = "0.2.3">
+        versionCode="250" 
+        version   = "0.2.5">
 
     <name>WORLD CUP USA SOCCER TEAM</name>
 
@@ -27,3 +27,8 @@
     <icon src="icon-large.png" />
     <preference name="permissions" value="none"/>
 </widget>
+<!--
+    update id - usmntsoccerroster - usmntsoccerrosterfree
+    update name - WORLD CUP USA SOCCER TEAM - WORLD CUP USA SOCCER TEAM Free
+    update icon - icon-large.png - icon-large-free.png
+-->
