@@ -411,5 +411,4 @@ Bios:
 Images:
  http://ussoccer.com
  http://msn.foxsports.com/soccer/photos/meet-team-united-states-world-cup-roster-23-man-squad-brazil-051314
-*/314
 */

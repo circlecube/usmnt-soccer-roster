@@ -62,7 +62,7 @@
                 <img class="list_img" src='img/{{player.img}}'>
                 <p class="label">{{player.player}}  {{#if player.number}}#{{player.number}}{{/if}}</p>
                 <img class="list_img2" src='img/{{player.img2}}'>
-                <p class="stats question_bio">{{player.pos}} from {{player.hometown}}, plays for {{player.club}}</p>
+                <p class="stats question_bio">{{player.player}}, {{#if player.goals}}{{player.goals}} goals in{{/if}} {{player.caps}} appearances, {{player.pos}} from {{player.hometown}}, plays for {{player.club}}</p>
                 <p class="question_bio">{{player.bio}}</p>
             </article>
         </script>
