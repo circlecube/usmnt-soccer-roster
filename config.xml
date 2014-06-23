@@ -31,4 +31,6 @@
     update id - usmntsoccerroster - usmntsoccerrosterfree
     update name - WORLD CUP USA SOCCER TEAM - WORLD CUP USA SOCCER TEAM Free
     update icon - icon-large.png - icon-large-free.png
+
+    free_version - false - true
 -->
