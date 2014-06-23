@@ -30,18 +30,17 @@
     <div class="options">
 <div id="mmenu" class="menu">
     <ul>
-        <li class="quiz"><a href="#" class="quiz_begin quiz quiz_face" data-index="0" data-value="face">Quiz</a>
-            <!-- <ul class="quiz_type">
+        <li class="quiz"><a href="#" class="quiz_begin">Quiz</a>
+            <ul class="quiz_type">
                 <li class="active"><a href="#" class="quiz quiz_face" data-index="0" data-value="face">Faces</a></li>
                 <li><a href="#" class="quiz quiz_number" data-index="1" data-value="number">Jersey Number</a></li>
                 <li><a href="#" class="quiz quiz_bio" data-index="2" data-value="bio">Bio</a></li>
                 <li><a href="#" class="quiz quiz_faces" data-index="3" data-value="face2">Faces II</a></li>
-                <li><a href="#" class="quiz quiz_name" data-index="2" data-value="name">Names</a></li>
-            </ul> -->
+                <li><a href="#" class="quiz quiz_stats" data-index="4" data-value="stats">Stats</a></li>
+            </ul>
         </li>
-        <!-- <li><a href="#" class="list_all">List All</a></li> -->
+        <li><a href="#" class="list_all">List All</a></li>
         <li><a href="#" class="share">Share</a></li>
-        <li><a href="market://details?id=com.circlecube.usmntsoccerroster" class="about">Upgrade</a></li>
         <li><a href="#" class="settings">Settings</a>
             <ul>
                 <!-- <li class="active"><a href="#" class="option_keep_log">Keep Log</a></li>
@@ -62,7 +61,7 @@
                 <img class="list_img" src='img/{{player.img}}'>
                 <p class="label">{{player.player}}  {{#if player.number}}#{{player.number}}{{/if}}</p>
                 <img class="list_img2" src='img/{{player.img2}}'>
-                <p class="stats question_bio">{{player.player}}, {{#if player.goals}}{{player.goals}} goals in{{/if}} {{player.caps}} appearances, {{player.pos}} from {{player.hometown}}, plays for {{player.club}}</p>
+                <p class="stats question_bio">{{player.player}} ({{player.age}}), {{#if player.goals}}{{player.goals}} goals in{{/if}} {{player.caps}} appearances, {{player.pos}} from {{player.hometown}}, plays for {{player.club}} at {{player.ht}} & {{player.wt}}lbs</p>
                 <p class="question_bio">{{player.bio}}</p>
             </article>
         </script>
