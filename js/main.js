@@ -97,7 +97,10 @@ jQuery(document).ready(function($) {
 	function set_ages(){
 		for ( var i = 0; i < active_team.length; i++){
 			active_team[i].age = get_age(active_team[i].birthdate);
-			console.log(active_team[i].player, active_team[i].age);
+			//console.log(active_team[i].player, active_team[i].age);
+		}
+		for ( var i = 0; i < usmnt_coaches.length; i++){
+			usmnt_coaches[i].age = get_age(usmnt_coaches[i].birthdate);
 		}
 	}
 	function get_age(dateString) {
