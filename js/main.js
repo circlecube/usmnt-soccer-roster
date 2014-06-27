@@ -21,9 +21,10 @@ var levels = [
     ['number'],
     ['bio'],
     ['face2'],
-    ['stats']
+    ['stats'],
+    ['club']
 ];
-var free_version = false;
+var free_version = true;
 
 var start_time = new Date();
 var end_time = new Date();
@@ -91,7 +92,7 @@ jQuery(document).ready(function($) {
 		//add upgrade link
 		$('.menu .share').parent().after('<li><a href="market://details?id=com.circlecube.usmntsoccerroster" class="about">Upgrade</a></li>');
 		//remove list all link
-		$('.list_all').parent().remove();
+		// $('.list_all').parent().remove();
 		//
 	}
 	function set_ages(){
@@ -190,6 +191,12 @@ jQuery(document).ready(function($) {
 	    switch(levels[level][0]) {
 	        case 'bio': //photo
 	            $('.content').html('<h2 class="question question_bio">' + group[answer_index].bio + '</h2>');
+	            for (var i = 0; i < 4; i++){
+	                $('.content').append(get_answer_div(group,mc_answers,i,2));
+	            } 
+	          break;
+	        case 'club': //photo
+	            $('.content').html('<h2 class="question question_club">' + group[answer_index].club + '</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 

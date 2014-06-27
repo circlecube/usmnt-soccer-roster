@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.circlecube.usmntsoccerroster"
-        versionCode="250" 
-        version   = "0.2.5">
+        id        = "com.circlecube.usmntsoccerrosterfree"
+        versionCode="260" 
+        version   = "0.2.6">
 
-    <name>WORLD CUP USA SOCCER TEAM</name>
+    <name>WORLD CUP USA SOCCER TEAM Free</name>
 
     <description>
         Get to know the World Cup Team for the United States of America! This app displays the 23 man soccer/football roster for the US Men's National Team. Prepare for the world cup and learn details about these world class players. Learn their number so you know who to cheer for from behind and be ready to impress friends. A must have for any American Outlaw.
@@ -19,12 +19,14 @@
         Evan Mullins 
     </author>
     <gap:platform name="android" />
+    <preference name="android-minSdkVersion" value="11" />
+    <preference name="android-targetSdkVersion" value="14" />
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
     <gap:plugin name="com.adobe.plugins.gaplugin" />
     <preference name="phonegap-version" value="3.4.0" />
     <preference name="orientation" value="portrait"/>
     <preference name="fullscreen" value="true" />
-    <icon src="icon-large.png" />
+    <icon src="icon-large-free.png" />
     <preference name="permissions" value="none"/>
 </widget>
 <!--
