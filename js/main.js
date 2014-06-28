@@ -24,7 +24,7 @@ var levels = [
     ['stats'],
     ['club']
 ];
-var free_version = true;
+var free_version = false;
 
 var start_time = new Date();
 var end_time = new Date();
@@ -196,7 +196,7 @@ jQuery(document).ready(function($) {
 	            } 
 	          break;
 	        case 'club': //photo
-	            $('.content').html('<h2 class="question question_club">' + group[answer_index].club + '</h2>');
+	            $('.content').html('<h2 class="question question_club" data-answer="' + group[answer_index].club + '">' + group[answer_index].club + '</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 
@@ -244,6 +244,11 @@ jQuery(document).ready(function($) {
 
 	    var correct = $.inArray(answer_index, mc_answers);
 	    $('.answer_'+correct).addClass('correct');
+	    $('.answer').each(function(idx, ele){
+	    	if ( $(this).data('answer') == $('.question').data('answer') ) {
+	    		$(this).addClass('correct');
+	    	}
+	    });
 	}
 	function get_answer_div(group, mc_answers, index, img){
 	    var answer_div = "";
@@ -254,6 +259,9 @@ jQuery(document).ready(function($) {
 	          break;
 	        case 'number': //number
 	        	answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + ' #' + group[mc_answers[index]].number + '"></div>';
+	          break;
+	        case 'club': //number
+	        	answer_div = '<div class="answer answer_' + index + '" data-answer="' + group[mc_answers[index]].club + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
 	          break;
 	        case 'face2': //name
 	        	answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img2 + '); background-position:'+ group[mc_answers[index]].img2_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
