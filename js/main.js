@@ -22,7 +22,8 @@ var levels = [
     ['bio'],
     ['face2'],
     ['stats'],
-    ['club']
+    ['club'],
+    ['hometown']
 ];
 var free_version = false;
 
@@ -207,6 +208,12 @@ jQuery(document).ready(function($) {
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 
 	          break;
+	        case 'hometown': //photo
+	            $('.content').html('<h2 class="question question_bio">From ' + group[answer_index].hometown + '</h2>');
+	            for (var i = 0; i < 4; i++){
+	                $('.content').append(get_answer_div(group,mc_answers,i,2));
+	            } 
+	          break;
 	        case 'number': //photo
 	            $('.content').html('<h2 class="question">#' + group[answer_index].number + '</h2>');
 	            for (var i = 0; i < 4; i++){
@@ -262,6 +269,9 @@ jQuery(document).ready(function($) {
 	          break;
 	        case 'club': //number
 	        	answer_div = '<div class="answer answer_' + index + '" data-answer="' + group[mc_answers[index]].club + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
+	          break;
+	        case 'hometown': //number
+	        	answer_div = '<div class="answer answer_' + index + '" data-answer="' + group[mc_answers[index]].hometown + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
 	          break;
 	        case 'face2': //name
 	        	answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img2 + '); background-position:'+ group[mc_answers[index]].img2_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
