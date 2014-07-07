@@ -208,6 +208,22 @@ var usmnt_players = [
 	 'number': 10,
 	 'bio':"Full first name Mikkel. Mother is from Arizona, father from Norway. Scored in 2012 exhibition against Russia, 2013 CONCACAF Gold Cup quarterfinal against El Salvador and in 2014 exhibition vs. Azerbaijan. Played exhibitions for Norway youth teams before switching to U.S. program. Has been with Stabaek (2008-12), Ghent (2012) and Rosenborg (2012-present)."
 	},
+	/*{'player': 'Landon Donovan',
+	 'pos': 'Forward',
+	 'ht': '5\'8"',
+	 'wt': '',
+	 'birthdate': '3/4/82',
+	 'hometown': 'Ontario, CA',
+	 'club': 'LA Galaxy',
+	 'img': '',
+	 'img_pos': 'center center',
+	 'img2': '',
+	 'img2_pos':'70% center',
+	 'caps': 156,
+	 'goals': 57,
+	 'number': 10,
+	 'bio':""
+	},*/
 	{'player': 'Omar Gonzalez',
 	 'pos': 'Defender',
 	 'ht': '6\'5"',
