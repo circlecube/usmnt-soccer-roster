@@ -23,7 +23,7 @@
     <preference name="android-targetSdkVersion" value="14" />
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
     <gap:plugin name="com.adobe.plugins.gaplugin" />
-    <preference name="phonegap-version" value="3.4.0" />
+    <preference name="phonegap-version" value="3.5.0" />
     <preference name="orientation" value="portrait"/>
     <preference name="fullscreen" value="true" />
     <icon src="icon-large.png" />
