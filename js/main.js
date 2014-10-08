@@ -25,11 +25,12 @@ var levels = [
     ['club'],
     ['hometown']
 ];
-var free_version = true;
+var free_version = false;
 
 var start_time = new Date();
 var end_time = new Date();
 var seconds = 0; // (start_time - end_time)/-1000;
+var delay_time = 900;
 var perfect = ['Perfect!', 'Flawless!', 'Amazing!', 'On a Roll!', 'Impeccable!', 'Unblemished!', "Honorary American Outlaw!"];
 var kudos =  ['Great!', 'Awesome!', 'Well done,', 'You\'re Smart,', 'Crazy Good!', 'Feelin\' it!', 'Dynamite!', 'Gold Star!', 'Impressive!', 'Exactly!', 'Correct!', 'Bingo!', 'On the nose!', 'Right!', 'Right on!', 'Righteous!', '', 'Inspiring!', 'Precisely!', 'Exactly!', 'Right as Rain!', '', 'GOOOAL!', 'Nice Shot!', 'On Target!'];
 var banter = ['Ouch!', 'Doh!', 'Fail!', 'Focus, only', 'Finger Slip?', 'Don\'t Give Up!', 'Good Grief!', 'Embarrasing!', 'Wrong!', 'Miss!', 'Incorrect!', 'You Blew It!', 'Nope!', 'You Must Be Joking!', 'Woah!', 'Need Help?', 'Try Studying,', 'Incorrect!', 'False!', 'Make sure to keep your eyes open.', 'Try Again,', 'Nice try, '];
@@ -191,49 +192,49 @@ jQuery(document).ready(function($) {
 	    //console.log(levels[level][0]);
 	    switch(levels[level][0]) {
 	        case 'bio': //photo
-	            $('.content').html('<h2 class="question question_bio">' + group[answer_index].bio + '</h2>');
+	            $('.content').html('<h2 data-answer="' + group[answer_index].player + '" class="question question_bio">' + group[answer_index].bio + '</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 
 	          break;
 	        case 'club': //photo
-	            $('.content').html('<h2 class="question question_club" data-answer="' + group[answer_index].club + '">' + group[answer_index].club + '</h2>');
+	            $('.content').html('<h2 data-answer="' + group[answer_index].player + '" class="question question_club" data-answer="' + group[answer_index].club + '">' + group[answer_index].club + '</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 
 	          break;
 	        case 'stats': //photo
-	            $('.content').html('<h2 class="question question_bio">' + group[answer_index].age + ' years old ' + group[answer_index].ht + ' & ' + group[answer_index].wt + 'lbs, ' + group[answer_index].goals + ' goals in ' + group[answer_index].caps + ' appearances</h2>');
+	            $('.content').html('<h2 data-answer="' + group[answer_index].player + '" class="question question_bio">' + group[answer_index].age + ' years old ' + group[answer_index].ht + ' & ' + group[answer_index].wt + 'lbs, ' + group[answer_index].goals + ' goals in ' + group[answer_index].caps + ' appearances</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 
 	          break;
 	        case 'hometown': //photo
-	            $('.content').html('<h2 class="question question_bio">From ' + group[answer_index].hometown + '</h2>');
+	            $('.content').html('<h2 data-answer="' + group[answer_index].player + '" class="question question_bio">From ' + group[answer_index].hometown + '</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 
 	          break;
 	        case 'number': //photo
-	            $('.content').html('<h2 class="question">#' + group[answer_index].number + '</h2>');
+	            $('.content').html('<h2 data-answer="' + group[answer_index].player + '" class="question">#' + group[answer_index].number + '</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 
 	          break;
 	        case 'When they were young(er)': //young photo
-	            $('.content').html('<h2 class="question">' + group[answer_index].player + '</h2>');
+	            $('.content').html('<h2 data-answer="' + group[answer_index].player + '" class="question">' + group[answer_index].player + '</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,1));
 	            }
 	          break;
 	        case 'Who Came First': //order
-	            $('.content').html('<h2 class="question">Called ' + group[answer_index].ordinal +  '</h2>');
+	            $('.content').html('<h2 data-answer="' + group[answer_index].player + '" class="question">Called ' + group[answer_index].ordinal +  '</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,0));
 	            }
 	          break;
 	        case 'name': //name
-	            $('.content').html('<div class="question"><span class="img"><img src="img/' + group[answer_index].img + '" alt="guess my name" /></span></div>');
+	            $('.content').html('<div data-answer="' + group[answer_index].player + '" class="question"><span class="img"><img src="img/' + group[answer_index].img + '" alt="guess my name" /></span></div>');
 	            var answers = '<div class="answers">';
 	            for (var i = 0; i < 4; i++){
 	                answers += get_answer_div(group,mc_answers,i,0);
@@ -241,7 +242,7 @@ jQuery(document).ready(function($) {
 	            $('.content').append( answers +'</div>');
 	          break;
 	        default: //face, face2
-	            $('.content').html('<h2 class="question">' + group[answer_index].player + '</h2>');
+	            $('.content').html('<h2 data-answer="' + group[answer_index].player + '" class="question">' + group[answer_index].player + '</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 
@@ -250,11 +251,12 @@ jQuery(document).ready(function($) {
 	    
 
 	    var correct = $.inArray(answer_index, mc_answers);
-	    $('.answer_'+correct).addClass('correct');
+	    // $('.answer_'+correct).addClass('correct');
 	    $('.answer').each(function(idx, ele){
+	    	// console.log( $(this).data('answer'), $('.question').data('answer') );
 	    	if ( $(this).data('answer') == $('.question').data('answer') ) {
 	    		$(this).addClass('correct');
-	    	}
+		    }
 	    });
 	}
 	function get_answer_div(group, mc_answers, index, img){
@@ -262,22 +264,22 @@ jQuery(document).ready(function($) {
 	    switch(levels[level][0]) {
 	        //photo and young photo as default
 	        case 'name': //name
-	            answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '"><p   class="answer_' + index + ' label">' + group[mc_answers[index]].player + '</p></div>';
+	            answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-id="' + mc_answers[index] + '"><p   class="answer_' + index + ' label">' + group[mc_answers[index]].player + '</p></div>';
 	          break;
 	        case 'number': //number
-	        	answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + ' #' + group[mc_answers[index]].number + '"></div>';
+	        	answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + ' #' + group[mc_answers[index]].number + '"></div>';
 	          break;
 	        case 'club': //number
-	        	answer_div = '<div class="answer answer_' + index + '" data-answer="' + group[mc_answers[index]].club + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
+	        	answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-answer="' + group[mc_answers[index]].club + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
 	          break;
 	        case 'hometown': //number
-	        	answer_div = '<div class="answer answer_' + index + '" data-answer="' + group[mc_answers[index]].hometown + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
+	        	answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-answer="' + group[mc_answers[index]].hometown + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
 	          break;
 	        case 'face2': //name
-	        	answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img2 + '); background-position:'+ group[mc_answers[index]].img2_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
+	        	answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img2 + '); background-position:'+ group[mc_answers[index]].img2_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
 	          break;
 	        default: //face, bio
-	            answer_div = '<div class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
+	            answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
 	          //error
 	    }
 	    return answer_div;
@@ -335,7 +337,10 @@ jQuery(document).ready(function($) {
 
 	$('.content').on('click', '.answer', function(e){
 		//console.log('clicked',$(this).attr('data-id'));
+		
+		// LEARN MODE
 		if (mode == 'learn' ){
+			
 		    $(this).addClass('clicked');
 		    var is_correct = false;
 		        // end_time = new Date();
@@ -426,9 +431,11 @@ jQuery(document).ready(function($) {
 		        //advance to next question
 		        setTimeout(function() {
 		            new_question();
-		        }, 750);
+		        }, delay_time);
 		    }
 		}
+		
+		//TEST MODE
 		else if( mode == 'test'){
 
 		    $(this).addClass('clicked');
@@ -525,7 +532,7 @@ jQuery(document).ready(function($) {
 			        //advance to next question
 			        setTimeout(function() {
 			            new_question();
-			        }, 750);
+			        }, delay_time);
 			    // }
 			}
 		}
