@@ -635,6 +635,13 @@ body.font-small {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover !important;
+  -webkit-transition: all 0.5s ease;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.5s ease;  /* FF4+ */
+      -ms-transition: all 0.5s ease;  /* IE10 */
+       -o-transition: all 0.5s ease;  /* Opera 10.5+ */
+          transition: all 0.5s ease;
+
+    transform: scaleX(-1);
 }
 .answer.list{
     width:100%;
@@ -659,9 +666,27 @@ body.font-small {
     text-align:center;
     border-bottom: 12px solid #d31346;
     margin:0;
+    z-index: 10;
 }
 .answer.list .label{
     position:relative;
+}
+.answer.clicked {
+	transform: scaleX(1);
+}
+.answer.clicked:after{
+	content: '';
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: #9a1e2e;
+	opacity: .25;
+	z-index: 1;
+}
+.answer.clicked.correct:after{
+	background: #56d22d;
 }
 .score{
     font-family:'UnitedSansSmCdHv','Georgia',serif;
