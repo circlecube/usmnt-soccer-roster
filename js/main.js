@@ -25,7 +25,7 @@ var levels = [
     ['club'],
     ['hometown']
 ];
-var free_version = true;
+var free_version = false;
 
 var start_time = new Date();
 var end_time = new Date();
