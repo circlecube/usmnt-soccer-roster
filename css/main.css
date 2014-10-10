@@ -640,8 +640,10 @@ body.font-small {
       -ms-transition: all 0.5s ease;  /* IE10 */
        -o-transition: all 0.5s ease;  /* Opera 10.5+ */
           transition: all 0.5s ease;
-
+    
+    -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+    webkit-transform: translate3d(0,0,0);
 }
 .answer.list{
     width:100%;
@@ -672,6 +674,7 @@ body.font-small {
     position:relative;
 }
 .answer.clicked {
+	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 }
 .answer.clicked:after{
