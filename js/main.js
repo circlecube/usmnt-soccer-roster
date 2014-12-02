@@ -1,5 +1,12 @@
 if (!window.console) console = {log: function() {}};
 /*
+TODO
+
+ADD recent callups and hall of famers from wikipedia
+
+Update clubs to an array of teams
+
+Jersey Number level needs rethinking to allow for current roster only
 
 */
 var gaPlugin;
@@ -36,7 +43,7 @@ var kudos =  ['Great!', 'Awesome!', 'Well done,', 'You\'re Smart,', 'Crazy Good!
 var banter = ['Ouch!', 'Doh!', 'Fail!', 'Focus, only', 'Finger Slip?', 'Don\'t Give Up!', 'Good Grief!', 'Embarrasing!', 'Wrong!', 'Miss!', 'Incorrect!', 'You Blew It!', 'Nope!', 'You Must Be Joking!', 'Woah!', 'Need Help?', 'Try Studying,', 'Incorrect!', 'False!', 'Make sure to keep your eyes open.', 'Try Again,', 'Nice try, '];
 
 
-var active_team = usmnt_players;
+var active_team = usmnt_players;//recent_callups //hall_of_fame
 var active_team_title = 'USMNT';
 var list_player;
 var list_player_template;

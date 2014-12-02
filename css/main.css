@@ -649,6 +649,8 @@ body.font-small {
     width:100%;
     height:auto;
     padding:0;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
 }
 .answer img {
     width: 100%;
@@ -690,6 +692,9 @@ body.font-small {
 }
 .answer.clicked.correct:after{
 	background: #56d22d;
+}
+.answer.list.clicked:after {
+	content: none;
 }
 .score{
     font-family:'UnitedSansSmCdHv','Georgia',serif;
