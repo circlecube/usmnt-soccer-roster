@@ -280,19 +280,49 @@ jQuery(document).ready(function($) {
 	            answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-id="' + mc_answers[index] + '"><p   class="answer_' + index + ' label">' + group[mc_answers[index]].player + '</p></div>';
 	          break;
 	        case 'number': //number
-	        	answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + ' #' + group[mc_answers[index]].number + '"></div>';
-	          break;
-	        case 'club': //number
-	        	answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-answer="' + group[mc_answers[index]].club + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
-	          break;
-	        case 'hometown': //number
-	        	answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-answer="' + group[mc_answers[index]].hometown + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
+	            answer_div = '<div data-answer="' + group[mc_answers[index]].player + '"';
+	            answer_div +=' class="answer answer_' + index + '"';
+	            answer_div +=' data-id="' + mc_answers[index] + '"';
+	            answer_div +=' data-level="' + levels[level][0] + '"';
+	            answer_div +=' style="background-image: url(img/' + group[mc_answers[index]].img + ');';
+	            if (group[mc_answers[index]].img_pos) {
+		            answer_div +=' background-position:'+ group[mc_answers[index]].img_pos + ';"';
+		        }
+		        else {
+		            answer_div +=' background-position:50% center;"';
+		        }
+	            answer_div +=' data-alt="' + group[mc_answers[index]].player + ' #' + group[mc_answers[index]].number + '">';
+	            answer_div +='</div>';
 	          break;
 	        case 'face2': //name
-	        	answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img2 + '); background-position:'+ group[mc_answers[index]].img2_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
+	            answer_div = '<div data-answer="' + group[mc_answers[index]].player + '"';
+	            answer_div +=' class="answer answer_' + index + '"';
+	            answer_div +=' data-id="' + mc_answers[index] + '"';
+	            answer_div +=' data-level="' + levels[level][0] + '"';
+	            answer_div +=' style="background-image: url(img/' + group[mc_answers[index]].img2 + ');';
+	            if (group[mc_answers[index]].img2_pos) {
+		            answer_div +=' background-position:'+ group[mc_answers[index]].img2_pos + ';"';
+		        }
+		        else {
+		            answer_div +=' background-position:50% center;"';
+		        }
+	            answer_div +=' data-alt="' + group[mc_answers[index]].player + '">';
+	            answer_div +='</div>';
 	          break;
 	        default: //face, bio
-	            answer_div = '<div data-answer="' + group[mc_answers[index]].player + '" class="answer answer_' + index + '" data-id="' + mc_answers[index] + '" style="background-image: url(img/' + group[mc_answers[index]].img + '); background-position:'+ group[mc_answers[index]].img_pos + ';" data-alt="' + group[mc_answers[index]].player + '"></div>';
+	            answer_div = '<div data-answer="' + group[mc_answers[index]].player + '"';
+	            answer_div +=' class="answer answer_' + index + '"';
+	            answer_div +=' data-id="' + mc_answers[index] + '"';
+	            answer_div +=' data-level="' + levels[level][0] + '"';
+	            answer_div +=' style="background-image: url(img/' + group[mc_answers[index]].img + ');';
+	            if (group[mc_answers[index]].img_pos) {
+		            answer_div +=' background-position:'+ group[mc_answers[index]].img_pos + ';"';
+		        }
+		        else {
+		            answer_div +=' background-position:50% center;"';
+		        }
+	            answer_div +=' data-alt="' + group[mc_answers[index]].player + '">';
+	            answer_div +='</div>';
 	          //error
 	    }
 	    return answer_div;

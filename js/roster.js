@@ -194,9 +194,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'D.C. United',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': 1,
 	'goals': 0,
 	'number': null,
@@ -394,9 +392,9 @@ var usmnt_players = [
 	'pos': 'Forward',
 	'birthdate': '03/04/1982',
 	'hometown': 'Ontario, CA',
-	'img': '',
+	'img': null,
 	'img_pos': 'center center',
-	'img2': '',
+	'img2': null,
 	'img2_pos':'70% center',
 	'caps': 157,
 	'goals': 57,
@@ -415,9 +413,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'Real Salt Lake',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': null,
 	'goals': null,
 	'number': null,
@@ -499,9 +495,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'FC Dallas',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': null,
 	'goals': null,
 	'number': null,
@@ -541,9 +535,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'Minnesota United',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': 1,
 	'goals': 0,
 	'number': null,
@@ -622,9 +614,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'Chicago Fire',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': 4,
 	'goals': 0,
 	'number': 12,
@@ -718,9 +708,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'D.C. United',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': 0,
 	'goals': 0,
 	'number': null,
@@ -829,9 +817,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'New England Revolution',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': 5,
 	'goals': 0,
 	'number': null,
@@ -850,9 +836,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'Colorado Rapids',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': 0,
 	'goals': 0,
 	'number': null,
@@ -910,9 +894,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'Colorado Rapids',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': 0,
 	'goals': 0,
 	'number': null,
@@ -931,9 +913,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'Orlando City',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': 28,
 	'goals': 3,
 	'number': null,
@@ -970,9 +950,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'Columbus Crew',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': 1,
 	'goals': 0,
 	'number': null,
@@ -1012,9 +990,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'Erzgebirge Aue, Germany',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': 6,
 	'goals': 0,
 	'number': null,
@@ -1072,9 +1048,7 @@ var usmnt_players = [
 	'hometown': '',
 	'club': 'LA Galaxy',
 	'img': null,
-	'img_pos': '50% center',
 	'img2': null,
-	'img2_pos':'50% center',
 	'caps': 1,
 	'goals': 0,
 	'number': null,
@@ -1120,7 +1094,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Bill Hamid',
@@ -1133,7 +1108,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Cody Cropper',
@@ -1146,7 +1122,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Christian Dean',
@@ -1159,7 +1136,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Brad Evans',
@@ -1172,7 +1150,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Oscar Sorto',
@@ -1185,7 +1164,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Greg Garza',
@@ -1198,7 +1178,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Tim Ream',
@@ -1211,7 +1192,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Michael Orozco',
@@ -1224,7 +1206,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Clarence Goodson',
@@ -1237,7 +1220,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Michael Parkhurst',
@@ -1250,7 +1234,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Tony Beltran',
@@ -1263,7 +1248,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Edgar Castillo',
@@ -1276,7 +1262,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Oguchi Onyewu',
@@ -1289,7 +1276,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Will Packwood',
@@ -1302,7 +1290,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Jonathan Spector',
@@ -1315,7 +1304,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Dennis Flores',
@@ -1328,7 +1318,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Marc Pelosi',
@@ -1341,7 +1332,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Alfredo Morales',
@@ -1354,7 +1346,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Joe Corona',
@@ -1367,7 +1360,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Emerson Hyndman',
@@ -1380,7 +1374,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Maurice Edu',
@@ -1393,7 +1388,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Sacha Kljestan',
@@ -1406,7 +1402,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Daniel Williams',
@@ -1419,7 +1416,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Tesho Akindele',
@@ -1432,7 +1430,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Julio Morales',
@@ -1445,7 +1444,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Jordan Morris',
@@ -1458,7 +1458,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Rubio Rubin',
@@ -1471,7 +1472,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Joe Gyau',
@@ -1484,7 +1486,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Terrence Boyd',
@@ -1497,7 +1500,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	{
 	'player': 'Juan Agudelo',
@@ -1510,7 +1514,8 @@ var usmnt_players = [
 	'hall_of_fame': false,
 	'recent_callups': true,
 	'current_squad': false,
-	'career': ''
+	'career': '',
+	'img': null,
 	},
 	
 	
