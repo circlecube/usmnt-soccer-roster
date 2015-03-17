@@ -42,7 +42,8 @@ var perfect = ['Perfect!', 'Flawless!', 'Amazing!', 'On a Roll!', 'Impeccable!',
 var kudos =  ['Great!', 'Awesome!', 'Well done,', 'You\'re Smart,', 'Crazy Good!', 'Feelin\' it!', 'Dynamite!', 'Gold Star!', 'Impressive!', 'Exactly!', 'Correct!', 'Bingo!', 'On the nose!', 'Right!', 'Right on!', 'Righteous!', '', 'Inspiring!', 'Precisely!', 'Exactly!', 'Right as Rain!', '', 'GOOOAL!', 'Nice Shot!', 'On Target!'];
 var banter = ['Ouch!', 'Doh!', 'Fail!', 'Focus, only', 'Finger Slip?', 'Don\'t Give Up!', 'Good Grief!', 'Embarrasing!', 'Wrong!', 'Miss!', 'Incorrect!', 'You Blew It!', 'Nope!', 'You Must Be Joking!', 'Woah!', 'Need Help?', 'Try Studying,', 'Incorrect!', 'False!', 'Make sure to keep your eyes open.', 'Try Again,', 'Nice try, '];
 
-
+//filter out any players without an image
+//these will automatically be added to the build as images are added
 var active_team = $.grep( usmnt_players, function( player, i ) {
   return player.img!=null;
   // return player.current_squad ===true;
@@ -247,7 +248,7 @@ jQuery(document).ready(function($) {
 	            }
 	          break;
 	        case 'name': //name
-	            $('.content').html('<div data-answer="' + group[answer_index].player + '" class="question"><span class="img"><img src="img/' + group[answer_index].img + '" alt="guess my name" /></span></div>');
+	            $('.content').html('<div data-answer="' + group[answer_index].player + '" class="question"><span class="img"><img src="' + group[answer_index].img + '" alt="guess my name" /></span></div>');
 	            var answers = '<div class="answers">';
 	            for (var i = 0; i < 4; i++){
 	                answers += get_answer_div(group,mc_answers,i,0);
@@ -284,7 +285,7 @@ jQuery(document).ready(function($) {
 	            answer_div +=' class="answer answer_' + index + '"';
 	            answer_div +=' data-id="' + mc_answers[index] + '"';
 	            answer_div +=' data-level="' + levels[level][0] + '"';
-	            answer_div +=' style="background-image: url(img/' + group[mc_answers[index]].img + ');';
+	            answer_div +=' style="background-image: url(' + group[mc_answers[index]].img + ');';
 	            if (group[mc_answers[index]].img_pos) {
 		            answer_div +=' background-position:'+ group[mc_answers[index]].img_pos + ';"';
 		        }
@@ -299,7 +300,7 @@ jQuery(document).ready(function($) {
 	            answer_div +=' class="answer answer_' + index + '"';
 	            answer_div +=' data-id="' + mc_answers[index] + '"';
 	            answer_div +=' data-level="' + levels[level][0] + '"';
-	            answer_div +=' style="background-image: url(img/' + group[mc_answers[index]].img2 + ');';
+	            answer_div +=' style="background-image: url(' + group[mc_answers[index]].img2 + ');';
 	            if (group[mc_answers[index]].img2_pos) {
 		            answer_div +=' background-position:'+ group[mc_answers[index]].img2_pos + ';"';
 		        }
@@ -314,7 +315,7 @@ jQuery(document).ready(function($) {
 	            answer_div +=' class="answer answer_' + index + '"';
 	            answer_div +=' data-id="' + mc_answers[index] + '"';
 	            answer_div +=' data-level="' + levels[level][0] + '"';
-	            answer_div +=' style="background-image: url(img/' + group[mc_answers[index]].img + ');';
+	            answer_div +=' style="background-image: url(' + group[mc_answers[index]].img + ');';
 	            if (group[mc_answers[index]].img_pos) {
 		            answer_div +=' background-position:'+ group[mc_answers[index]].img_pos + ';"';
 		        }

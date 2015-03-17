@@ -61,18 +61,15 @@
 
         <script id="list_player" type="text/x-handlebars-template">
             <article class='answer list' >
-                {{#if player.img }}<img class="list_img" src='img/{{player.img}}'>{{/if}}
+                {{#if player.img }}<img class="list_img" src='{{player.img}}'>{{/if}}
                 <p class="label">{{player.player}}  {{#if player.number}}#{{player.number}}{{/if}}</p>
-                {{#if player.img2 }}<img class="list_img2" src='img/{{player.img2}}'>{{/if}}
+                {{#if player.img2 }}<img class="list_img2" src='{{player.img2}}'>{{/if}}
                 <p class="stats question_bio">
-                {{player.player}} ({{player.age}}), 
+                {{player.player}} ({{player.age}}), {{player.pos}}. 
                 {{#if player.goals}}{{player.goals}} goals in{{/if}} 
-                {{player.caps}} appearances, {{player.pos}} 
-                {{#if player.hometown}} from {{player.hometown}}{{/if}}, 
-                {{#if player.club}}plays for {{player.club}} {{/if}}
-                {{#if player.ht}}at {{player.ht}} &{{/if}}
-                {{#if player.wt}} {{player.wt}}lbs{{/if}}
-                {{#if player.career}}Played {{player.career}}{{/if}}
+                {{player.caps}} appearances. 
+                {{#if player.hometown}} From {{player.hometown}}. {{/if}}
+                {{#if player.club}}Plays for {{player.club}}. {{/if}}
                 </p>
             </article>
         </script>
