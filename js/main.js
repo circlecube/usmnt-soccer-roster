@@ -2,11 +2,8 @@ if (!window.console) console = {log: function() {}};
 /*
 TODO
 
-ADD recent callups and hall of famers from wikipedia
+Add Teams to a setting so you can be tested on just certain rosters. For example, World Cup 2014, Gold Cup 2015... Add more as they are completed. WC 2010, 2006, 2002, Hall of Fame Caps, Hall of Fame Goals
 
-Update clubs to an array of teams
-
-Jersey Number level needs rethinking to allow for current roster only
 
 */
 var gaPlugin;
@@ -25,12 +22,12 @@ var num_levels = 4;
 var mode = 'learn';// learn/test
 var levels = [
     ['face'],
-    ['number'],
-    ['bio'],
-    ['face2'],
+    // ['number'],
+    // ['bio'],
+    // ['face2'],
     ['stats'],
     ['club'],
-    ['hometown']
+    // ['hometown']
 ];
 var free_version = false;
 
@@ -41,16 +38,7 @@ var delay_time = 900;
 var perfect = ['Perfect!', 'Flawless!', 'Amazing!', 'On a Roll!', 'Impeccable!', 'Unblemished!', "Honorary American Outlaw!"];
 var kudos =  ['Great!', 'Awesome!', 'Well done,', 'You\'re Smart,', 'Crazy Good!', 'Feelin\' it!', 'Dynamite!', 'Gold Star!', 'Impressive!', 'Exactly!', 'Correct!', 'Bingo!', 'On the nose!', 'Right!', 'Right on!', 'Righteous!', '', 'Inspiring!', 'Precisely!', 'Exactly!', 'Right as Rain!', '', 'GOOOAL!', 'Nice Shot!', 'On Target!'];
 var banter = ['Ouch!', 'Doh!', 'Fail!', 'Focus, only', 'Finger Slip?', 'Don\'t Give Up!', 'Good Grief!', 'Embarrasing!', 'Wrong!', 'Miss!', 'Incorrect!', 'You Blew It!', 'Nope!', 'You Must Be Joking!', 'Woah!', 'Need Help?', 'Try Studying,', 'Incorrect!', 'False!', 'Make sure to keep your eyes open.', 'Try Again,', 'Nice try, '];
-
-//filter out any players without an image
-//these will automatically be added to the build as images are added
-var active_team = $.grep( usmnt_players, function( player, i ) {
-  return player.img!=null;
-  // return player.current_squad ===true;
-  // return player.recent_callups===true;
-  // return player.hall_of_fame  ===true;
-});
-//usmnt_players;//recent_callups //hall_of_fame
+var active_team = usmnt_players;
 var active_team_title = 'USMNT';
 var list_player;
 var list_player_template;
@@ -92,7 +80,9 @@ jQuery(document).ready(function($) {
 		//setup handlebars
 		list_player = $("#list_player").html();
 		list_player_template = Handlebars.compile(list_player);
-
+		
+		update_roster();
+		
 		game_players();
 	}
 
@@ -110,6 +100,47 @@ jQuery(document).ready(function($) {
 		//remove list all link
 		// $('.list_all').parent().remove();
 		//
+	}
+	function update_roster() {
+		//filter out any players without a specific value
+		//these will automatically be added to the build as images are added
+
+		  // return player.current_squad ===true;
+		  // return player.recent_callups===true;
+		  // return player.hall_of_fame  ===true;
+		
+		console.log(levels[level][0]);
+		
+		switch(levels[level][0]) {
+		    case 'stats':
+				active_team = $.grep( usmnt_players, function( player, i ) {
+				  return 	player.img!=null && 
+				  			player.caps!=null && 
+				  			player.pos!='';
+		  		});
+	  		break;	
+			
+			case 'club':
+				active_team = $.grep( usmnt_players, function( player, i ) {
+				  return 	player.img!=null && 
+				  			player.club!=null && 
+				  			player.club!='';
+		  		});
+	  		break;
+		
+			case 'hometown':
+				active_team = $.grep( usmnt_players, function( player, i ) {
+				  return player.img!=null && player.hometown!=null;
+				});
+				break;
+			
+			default:  //face / default
+				//filter out any players without an image
+				active_team = $.grep( usmnt_players, function( player, i ) {
+				  return player.img!=null;
+				});
+			
+		}
 	}
 	function set_ages(){
 		for ( var i = 0; i < active_team.length; i++){
@@ -212,13 +243,13 @@ jQuery(document).ready(function($) {
 	            } 
 	          break;
 	        case 'club': //photo
-	            $('.content').html('<h2 data-answer="' + group[answer_index].player + '" class="question question_club" data-answer="' + group[answer_index].club + '">' + group[answer_index].club + '</h2>');
+	            $('.content').html('<h2 class="question question_club" data-answer="' + group[answer_index].club + '">' + group[answer_index].club + '</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 
 	          break;
 	        case 'stats': //photo
-	            $('.content').html('<h2 data-answer="' + group[answer_index].player + '" class="question question_bio">' + group[answer_index].age + ' years old ' + group[answer_index].ht + ' & ' + group[answer_index].wt + 'lbs, ' + group[answer_index].goals + ' goals in ' + group[answer_index].caps + ' appearances</h2>');
+	            $('.content').html('<h2 data-answer="' + group[answer_index].player + '" class="question question_bio">' + group[answer_index].pos + '. ' + group[answer_index].age + ' years old, ' + group[answer_index].goals + ' goals in ' + group[answer_index].caps + ' appearances</h2>');
 	            for (var i = 0; i < 4; i++){
 	                $('.content').append(get_answer_div(group,mc_answers,i,2));
 	            } 
@@ -293,6 +324,21 @@ jQuery(document).ready(function($) {
 		            answer_div +=' background-position:50% center;"';
 		        }
 	            answer_div +=' data-alt="' + group[mc_answers[index]].player + ' #' + group[mc_answers[index]].number + '">';
+	            answer_div +='</div>';
+	          break;
+	        case 'club': //club
+	            answer_div = '<div data-answer="' + group[mc_answers[index]].club + '"';
+	            answer_div +=' class="answer answer_' + index + '"';
+	            answer_div +=' data-id="' + mc_answers[index] + '"';
+	            answer_div +=' data-level="' + levels[level][0] + '"';
+	            answer_div +=' style="background-image: url(' + group[mc_answers[index]].img + ');';
+	            if (group[mc_answers[index]].img_pos) {
+		            answer_div +=' background-position:'+ group[mc_answers[index]].img_pos + ';"';
+		        }
+		        else {
+		            answer_div +=' background-position:50% center;"';
+		        }
+	            answer_div +=' data-alt="' + group[mc_answers[index]].player + ', ' + group[mc_answers[index]].club + '">';
 	            answer_div +='</div>';
 	          break;
 	        case 'face2': //name
@@ -605,6 +651,7 @@ jQuery(document).ready(function($) {
 		level = $(this).data('index');
 		localStorage.level = level;
 		// console.log(level, levels[level][0]);
+		update_roster();
 		game_players();
 	});
 	$('.mode').on('click touch', function(e){
