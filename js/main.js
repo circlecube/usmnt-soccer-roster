@@ -42,7 +42,8 @@ var active_team = usmnt_players;
 var active_team_title = 'USMNT';
 var list_player;
 var list_player_template;
-
+var rosters = ['All'];
+var roster = 'All';
 jQuery(document).ready(function($) {
 
 	function init(){
@@ -81,6 +82,8 @@ jQuery(document).ready(function($) {
 		list_player = $("#list_player").html();
 		list_player_template = Handlebars.compile(list_player);
 		
+		build_rosters();
+		
 		update_roster();
 		
 		game_players();
@@ -114,30 +117,36 @@ jQuery(document).ready(function($) {
 		switch(levels[level][0]) {
 		    case 'stats':
 				active_team = $.grep( usmnt_players, function( player, i ) {
-				  return 	player.img!=null && 
-				  			player.caps!=null && 
-				  			player.pos!='';
+				  return 	player.img != null && 
+				  			player.caps != null && 
+				  			player.pos != '' && 
+				  			player.rosters.indexOf( roster ) > -1;
 		  		});
 	  		break;	
 			
 			case 'club':
 				active_team = $.grep( usmnt_players, function( player, i ) {
-				  return 	player.img!=null && 
-				  			player.club!=null && 
-				  			player.club!='';
+				  return 	player.img != null && 
+				  			player.club != null && 
+				  			player.club != '' && 
+				  			player.rosters.indexOf( roster ) > -1;
 		  		});
 	  		break;
 		
 			case 'hometown':
 				active_team = $.grep( usmnt_players, function( player, i ) {
-				  return player.img!=null && player.hometown!=null;
+				  return 	player.img != null && 
+				  			player.hometown != null && 
+				  			player.hometown != '' && 
+				  			player.rosters.indexOf( roster ) > -1;
 				});
 				break;
 			
 			default:  //face / default
 				//filter out any players without an image
 				active_team = $.grep( usmnt_players, function( player, i ) {
-				  return player.img!=null;
+				  return 	player.img!=null && 
+				  			player.rosters.indexOf( roster ) > -1;
 				});
 			
 		}
@@ -160,6 +169,32 @@ jQuery(document).ready(function($) {
 	        age--;
 	    }
 	    return age;
+	}
+	function build_rosters(){
+		//get rosters from data and build master
+		for ( var i = 0; i < active_team.length; i++ ){
+			var player_rosters_string = active_team[i].rosters;			
+			var player_rosters = player_rosters_string.split(',');
+			active_team[i].rosters += ',All';
+			for ( var j = 0; j < player_rosters.length; j++ ) {
+				//if not in rosters already
+				if ( $.inArray( player_rosters[j], rosters ) === -1 && 
+					player_rosters[j] !== '' ) {
+					//add to master rosters list
+					// console.log('adding new roster', player_rosters[j]);
+					rosters.push( player_rosters[j] );
+				}
+			}
+		}
+		// console.log(rosters);
+		//sort alphabetically
+		
+		//build menu item for each roster
+		var rosters_html = '';
+		for (var i = 0; i < rosters.length; i++){
+			rosters_html += '<li><a href="#" class="quiz quiz_roster" data-index="'+i+'" data-value="' + rosters[i] + '">' + rosters[i] + '</a></li>';
+		}
+		$('.quiz_roster ul').html(rosters_html);
 	}
 	function onDeviceReady() {
 		//https://github.com/phonegap-build/GAPlugin/blob/c928e353feb1eb75ca3979b129b10b216a27ad59/README.md
@@ -651,6 +686,16 @@ jQuery(document).ready(function($) {
 		level = $(this).data('index');
 		localStorage.level = level;
 		// console.log(level, levels[level][0]);
+		update_roster();
+		game_players();
+	});
+	$('.quiz_roster').on('click touch', '.quiz', function(e){
+		//set level
+		$('.quiz_roster .quiz').parent().removeClass('active');
+		$(this).parent().addClass('active');
+		roster = $(this).data('value');
+		localStorage.roster = roster;
+		console.log(roster);
 		update_roster();
 		game_players();
 	});
