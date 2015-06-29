@@ -33,12 +33,17 @@
         <li class="quiz"><a href="#" class="quiz_begin">Quiz</a>
             <ul class="quiz_type">
                 <li class="active"><a href="#" class="quiz quiz_face" data-index="0" data-value="face">Faces</a></li>
-                <li><a href="#" class="quiz quiz_number" data-index="1" data-value="number">Jersey Number</a></li>
-                <li><a href="#" class="quiz quiz_bio" data-index="2" data-value="bio">Bio</a></li>
-                <li><a href="#" class="quiz quiz_faces" data-index="3" data-value="face2">Faces II</a></li>
-                <li><a href="#" class="quiz quiz_stats" data-index="4" data-value="stats">Stats</a></li>
-                <li><a href="#" class="quiz quiz_club" data-index="5" data-value="stats">Club</a></li>
-                <li><a href="#" class="quiz quiz_hometown" data-index="6" data-value="hometown">Hometown</a></li>
+                <!-- <li><a href="#" class="quiz quiz_number" data-index="1" data-value="number">Jersey Number</a></li> -->
+                <!-- <li><a href="#" class="quiz quiz_bio" data-index="2" data-value="bio">Bio</a></li> -->
+                <!-- <li><a href="#" class="quiz quiz_faces" data-index="3" data-value="face2">Faces II</a></li> -->
+                <li><a href="#" class="quiz quiz_stats" data-index="1" data-value="stats">Stats</a></li>
+                <li><a href="#" class="quiz quiz_club" data-index="2" data-value="stats">Club</a></li>
+                <!-- <li><a href="#" class="quiz quiz_hometown" data-index="3" data-value="hometown">Hometown</a></li> -->
+            </ul>
+        </li>
+        <li class="quiz_roster"><a href="#" class="roster">Roster</a>
+            <ul>
+                <li class="active"><a href="#" class="quiz quiz_face" data-index="0" data-value="face">World Cup 2014</a></li>
             </ul>
         </li>
         <li><a href="#" class="list_all">List All</a></li>
@@ -61,11 +66,16 @@
 
         <script id="list_player" type="text/x-handlebars-template">
             <article class='answer list' >
-                <img class="list_img" src='img/{{player.img}}'>
+                {{#if player.img }}<img class="list_img" src='{{player.img}}'>{{/if}}
                 <p class="label">{{player.player}}  {{#if player.number}}#{{player.number}}{{/if}}</p>
-                <img class="list_img2" src='img/{{player.img2}}'>
-                <p class="stats question_bio">{{player.player}} ({{player.age}}), {{#if player.goals}}{{player.goals}} goals in{{/if}} {{player.caps}} appearances, {{player.pos}} from {{player.hometown}}, plays for {{player.club}} at {{player.ht}} & {{player.wt}}lbs</p>
-                <p class="question_bio">{{player.bio}}</p>
+                {{#if player.img2 }}<img class="list_img2" src='{{player.img2}}'>{{/if}}
+                <p class="stats question_bio">
+                {{player.player}} ({{player.age}}), {{player.pos}}. 
+                {{#if player.goals}}{{player.goals}} goals in{{/if}} 
+                {{player.caps}} appearances. 
+                {{#if player.hometown}} From {{player.hometown}}. {{/if}}
+                {{#if player.club}}Plays for {{player.club}}. {{/if}}
+                </p>
             </article>
         </script>
 

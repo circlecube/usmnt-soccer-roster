@@ -1,0 +1,772 @@
+Data for matches, delete when added to CMS
+
+http://en.wikipedia.org/wiki/United_States_national_soccer_team_results
+
+
+
+http://www.rsssf.com/tablesu/usa-intres.html
+
+
+     2010 results:   5W, 5D, 4L
+Nov 17 2010  W 1-0  South Africa       52,000  Cape Town, South Africa   Agudelo (65)
+Oct 12 2010  D 0-0  Columbia            8,823  Chester, PA, USA
+Oct 09 2010  D 2-2  Poland             31,696  Chicago, IL, USA   Altidore (13), Onyewu (52)
+Aug 10 2010  L 0-2  Brazil             77,223  East Rutherford, NJ, USA
+Jun 26 2010  L 1-2  Ghana              34,976  Rustenburg, South Africa (WC’10)   Donovan (62)
+Jun 23 2010  W 1-0  Algeria            35,827  Pretoria, South Africa (WC’10)   Donovan (91)
+Jun 18 2010  D 2-2  Slovenia           45,573  Johannesburg, South Africa (WC’10)   Donovan (48), Bradley (82)
+Jun 12 2010  D 1-1  England            38,646  Rustenburg, South Africa (WC’10)   Dempsey (40)
+Jun 05 2010  W 3-1  Australia           6,000  Roodespoort, South Africa   Buddle (4, 31), Gomez (93)
+May 29 2010  W 2-1  Turkey             55,407  Philadelphia, PA, USA   Altidore (58), Dempsey (75)
+May 25 2010  L 4-2  Czech Republic     36,218  East Hartford, CT, USA   Edu (17), Gomez (65)
+Mar 03 2010  L 1-2  Netherlands        46,630  Amsterdam, Neth.   Bocanegra (88)
+Feb 24 2010  W 2-1  El Salvador        21,737  Tampa, FL, USA   Ching (75), Cljestan (92)
+Jan 23 2010  L 1-3  Honduras           18,626  Carson, CA, USA   Goodson (70)
+==
+     2009 Totals:   13W, 3D, 8L
+Nov 18 2009  L 1-3  Denmark            15,172  Aarhus, Denmark   Cunningham (26)
+Nov 14 2009  L 0-1  Slovakia            7,200  Bratislava, Slovakia
+Oct 14 2009  D 2-2  Costa Rica         26,243  Washington, DC, USA (WCQ’10)   Bradley, Bornstein
+Oct 10 2009  W 3-2  Honduras           37,000  San Pedro Sula, Honduras (WCQ’10)   Casey (2), Donovan
+Sep 09 2009  W 1-0  Trinidad & Tobago          Port of Spain, Trinidad (WCQ’10)   Clark (62)
+Sep 05 2009  W 2-1  El Salvador        19,066  Sandy, UT, USA (WCQ’10)   Dempsey (41), Altidore (45+2)
+Aug 12 2009  L 1-2  Mexico            110,000  Mexico City, MX (WCQ’10 )   Davies (9)
+Jul 26 2009  L 0-5  Mexico             79,156  East Rutherford, NJ, USA (GC’10)
+Jul 23 2009  W 2-0  Honduras           55,173  Chicago, IL, USA (GC’10)   Goodson (45), Cooper (90)
+Jul 18 2009  W 2-1  Panama             31,087  Philadelphia, PA, USA (GC’10)   Beckerman (49), Cooper (105+-PK)
+Jul 11 2009  D 2-2  Haiti              24,137  Foxboro, MA, USA (GC’10)   Arnaud (6), Holden (92)
+Jul 08 2009  W 2-0  Honduras           26,079  Washington, DC, USA (GC’10)   Quaranta (75), Ching (79)
+Jul 04 2009  W 4-0  Grenada            15,387  Seattle, WA, USA (GC’10)   Adu (7), Holden (31), Rogers (60), Davies (68)
+Jun 28 2009  L 2-3  Brazil             52,291  Johannesburg, South Africa (CC’10)   Dempsey (10), Donovan (74)
+Jun 24 2009  W 2-0  Spain              35,396  Bloemfontein, South Africa (CC’10)   Altidore (27), Dempsey (74)
+Jun 21 2009  W 3-0  Egypt              23,140  Rustenburg, South Africa (CC’10)   Davies (21), Bradley (63), Dempsey (71)
+Jun 18 2009  L 0-3  Brazil             39,617  Pretoria, South Africa (CC’10)
+Jun 15 2009  L 1-3  Italy              34,341  Pretoria, South Africa (CC’10)   Donovan (41-PK)
+Jun 06 2009  W 2-1  Honduras           55,647  Chicago, IL, USA (WCQ’10)   Donovan (43-PK), Bocanegra (68)
+Jun 03 2009  L 1-3  Costa Rica         19,200  San Jose, Costa Rica (WCQ’10)   Donovan (92-PK)
+Apr 01 2009  W 3-0  Trinidad & Tobago  27,969  Nashville, TN, USA (WCQ’10)   Altidore (13,71,89)
+Mar 28 2009  D 2-2  El Salvador        30,500  San Salvador, El Salvador (WCQ’10)   Altidore (77), Hedjuk (88)
+Feb 11 2009  W 2-0  Mexico             23,776  Columbus, OH, USA (WCQ’10)   Bradley (43,92+)
+Jan 24 2009  W 3-2  Sweden              9,918  Carson, CA, USA   Kljestan (40, 74-PK,89)
+==
+     2008 Totals:   9W, 2D, 3L
+Nov 19 2008  W 2-0  Guatemala           9,303  Washington, DC, USA (WCQ’10)   Cooper (54), Adu (69)
+Oct 15 2008  L 1-2  Trinidad & Tobago  18,000  Port of Spain, Trinidad (WCQ’10)   Davies (75)
+Oct 11 2008  W 6-1  Cuba               20,293  Commerce City, CO, USA (WCQ’10)   Beasley (10,30), Donovan (48), Ching (63), Altidore (87),    Onyewu (90)
+Sep 10 2008  W 3-0  Trinidad & Tobago  11,452  Bridgeview, IL, USA (WCQ’10)   Bradley (9), Dempsey (18), Ching (57)
+Sep 06 2008  W 1-0  Cuba                       Havana, Cuba (WCQ’10)   Dempsey (40)
+Aug 20 2008  W 1-0  Guatemala          25,000  Guatemala City, Guatemala (WCQ’10)   Bocanegra (68)
+Jun 22 2008  W 1-0  Barbados            2,000  Bridgetown, Barbados (WCQ ’10)   Lewis (21)
+Jun 15 2008  W 8-0  Barbados           11,476  Carson, CA, USA (WCQ’10)   Dempsey (1,63), Bradley (12), Ching (20,89), Donovan (59),    Johnson (82), o.g. (86)
+Jun 08 2008  D 0-0  Argentina          78,682  East Rutherford, NJ, USA
+Jun 04 2008  L 0-1  Spain              14,232  Santander, Spain
+May 28 2008  L 0-2  England            71,233  London, England
+Mar 26 2008  W 3-0  Poland             20,000  Krakow, Poland   Bocanegra (12), Onyewu (350, Lewis (63)
+Feb 06 2008  D 2-2  Mexico             70,103  Houston, TX   Onyewu (30), Altidore (40)
+Jan 19 2008  W 2-0  Sweden             14,878  Carson, CA   Robinson (15), Donovan (PK-48)
+==
+     2007 Totals:   12W, 1D, 5L
+Nov 17 2007  W 1-0  South Africa       30,000  Johannesburg, South Africa’   Cherundolo (27)
+Oct 17 2007  W 1-0  Switzerland        16,500  Basel, Switzerland   Bradley (86)
+Sep 09 2007  L 2-4  Brazil             43,543  Chicago, IL   Bocanegra (21), Dempsey (73)
+Aug 22 2007  L 0-1  Sweden             20,648  Goteborg, Sweden
+Jul 05 2007  L 0-1  Colombia           35,000  Barquisimeto, Venezuela (CA’07)
+Jul 02 2007  L 1-3  Paraguay           25,000  Barinas, Venezuela (CA’07)   Clark (40)
+Jun 28 2007  L 1-4  Argentina          37,000  Maracaibo, Venezuela (CA’07)   Johnson (PK-9)
+Jun 24 2007  W 2-1  Mexico             60,000  Chicago, IL (GC’07)   Donovan (PK-62), Feihaber (73)
+Jun 21 2007  W 2-1  Canada             50,760  Chicago, IL (GC’07)   Hedjuk (39), Donovan (45)
+Jun 16 2007  W 2-1  Panama             22,412  Foxboro, MA (GC’07)   Donovan (PK-60), Bocanegra (82)
+Jun 12 2007  W 4-0  El Salvador        26,512  Foxboro, MA (GC’07)   Beasley (34, 89), Donovan (49), Twellman (73)
+Jun 09 2007  W 2-0  Trinidad & Tobago  27,000  Carson, CA (GC’07)   Ching (29), Johnson (54)
+Jun 07 2007  W 1-0  Guatemala          21,334  Carson, CA (GC’07)   Dempsey (26)
+Jun 02 2007  W 4-1  China              20,821  San Jose, CA   Beasley (PK-10), Feihaber (28), Dempsey (75), Onyewu (79)
+Mar 28 2007  D 0-0  Guatemala          10,932  Frisco, TX
+Mar 25 2007  W 3-1  Ecuador            31,547  Tampa, FL   Donovan (1, 66, 67)
+Feb 07 2007  W 2-0  Mexico             62,462  Glendale, AZ   Conrad (52), Donovan (90)
+Jan 20 2007  W 3-1  Denmark            10,048  Carson, CA   Donovan (PK-44), Bornstein (57), Cooper (80)
+==
+     2006 Totals:   6W, 3D, 3L
+Jun 22 2006  L 1-2  Ghana              41,000  Nuremberg, Germany (WC’06)   Dempsey (43)
+Jun 17 2006  D 1-1  Italy              46,000  Kaiserslautern, Germany (WC’06)   (O.G.)
+Jun 12 2006  L 0-3  Czech Republic     52,000  Gelsenkirchen, Germany (WC’06)
+May 28 2006  W 1-0  Latvia             24,646  East Hartford, CT   McBride (43)
+May 26 2006  W 2-0  Venezuela          29,745  Cleveland, OH   Ching (36), Dempsey (69)
+May 23 2006  L 0-1  Morocco            26,141  Nashville, TN
+Apr 11 2006  D 1-1  Jamaica             8,093  Cary, NC   Olsen (25)
+Mar 22 2006  L 1-4  Germany            64,500  Dortmund, Germany   Cherundolo (85)
+Mar 01 2006  W 1-0  Poland             13,395  Kaiserslautern, Germany   Dempsey (48)
+Feb 19 2006  W 4-0  Guatemala          14,453  Frisco, TX   Olsen (38), Ching (45), Johnson (47), Klein (71)
+Feb 10 2006  W 3-2  Japan              37,365  San Francisco, CA, USA   Pope (24), Dempsey (39), Twellman (50)
+Jan 29 2006  W 5-0  Norway             16,366  Carson, CA, USA   Twellman (5, 17, 76), Pope (67), Klein (87)
+Jan 22 2006  D 0-0  Canada              6,077  San Diego, CA, USA
+==
+     2005 Totals:   14W, 3D, 3L
+Nov 12 2005  D 1-1  Scotland           26,708  Glasgow, Scotland   Wolff (9-pk)
+Oct 12 2005  W 2-0  Panama              9,192  Foxboro, MA, USA (WCQ’06)   Martino (51), Twellman (57) 
+Oct 08 2005  L 0-3  Costa Rica         30,000  San Jose, Costa Rica (WCQ’06)
+Sep 07 2005  D 0-0  Guatemala          24,000  Guatemala City, Guatemala (WCQ’06)
+Sep 03 2005  W 2-0  Mexico             24,685  Columbus, OH, USA (WCQ’06)   Ralston (53), Beasley (56)
+Aug 17 2005  W 1-0  Trinidad & Tobago  25,488  East Hartford, CT, USA (WCQ’06)   McBride (2)
+Jul 24 2005  W 0-0  Panama             31,018  East Rutherford, NJ, USA (G.C. ’05)   (W 3-1 PK)
+Jul 21 2005  W 2-1  Honduras           41,721  East Rutherford, NJ, USA (G.C. ‘05)   John O'Brien (86), Oguchi Onyewu (92+)
+Jul 16 2005  W 3-1  Jamaica            22,108  Foxboro, MA, USA (Gold Cup ’05)   Josh Wolff (6), DaMarcus Beasley (42,83)
+Jul 12 2005  D 0-0  Costa Rica         15,211  Foxboro, MA, USA (Gold Cup ’05)
+Jul 09 2005  W 2-0  Canada             15,109  Seattle, WA, USA (Gold Cup ’05)   (O.G.), Donovan (90)
+Jul 07 2005  W 4-1  Cuba               15,831  Seattle, WA, USA (Gold Cup ‘05)
+              Dempsey 44, Donovan 87, 91, Beasley 90 ; Cuba: More 18 
+Jun 08 2005  W 3-0  Panama             17,000  Panama City, Panama (WCQ’06)   Bocanegra (6), Donovan (20), McBride (40) 
+Jun 04 2005  W 3-0  Costa Rica         40,586  Salt Lake City, UT, USA (WCQ’06)
+              Donovan (6, 63), McBride (87) 
+May 28 2005  L 1-2  England            47,637  Chicago, IL, USA   Dempsey (79)
+Mar 30 2005  W 2-0  Guatemala          31,465  Birmingham, AL, USA (WCQ’06)   Johnson (11), Ralston (71)
+Mar 27 2005  L 1-2  Mexico            110,000  Mexico City, Mexico (WCQ’06)   Lewis (59)
+Mar 19 2005  W 1-0  Honduras            9,222  Albuquerque, NM, USA   Johnson (45)
+Mar 09 2005  W 3-0  Colombia            7,086  Fullerton, CA, USA   Noonan (25), Marshall (33), Mathis (66)
+Feb 09 2005  W 2-1  Trinidad & Tobago  18,000  Port of Spain, Trinidad (WCQ’06)   Johnson (30), Lewis (54)
+==
+     2004 Totals:   8W, 6D, 1L
+Nov 17 2004  D 1-1  Jamaica             9,088  Columbus, OH, USA (WCQ’06)   Johnson (15)
+Oct 13 2004  W 6-0  Panama             19,793  Washington, DC, USA (WCQ’06)   Landon Donovan (21,57), Ed Johnson (71,85,88), O.G. (90) 
+Oct 09 2004  W 2-0  El Salvador        20,000  San Salvador, El Salvador (WCQ’06)   McBride (29), Johnson (76)
+Sep 08 2004  D 1-1  Panama             14,200  Panama City, Panama (WCQ’06)   Jones (92)
+Sep 04 2004  W 2-0  El Salvador        25,266  Foxboro, MA, USA (WCQ’06)   Ching (5), Donovan 69)
+Aug 18 2004  D 1-1  Jamaica            27,000  Kingston, Jamaica (WCQ’06)   Ching (89)
+Jul 11 2004  D 1-1  Poland             39,529  Chicago, IL, USA   Boconegra (88)
+Jun 20 2004  W 3-2  Grenada            15,267  St. George’s, Grenada (WCQ’06)   Donovan (6), Wolff (19), Beasley (77)
+Jun 13 2004  W 3-0  Grenada             9,137  Columbus, OH, USA (WCQ’06)   Beasley (46,71), Vanney (92)
+Jun 02 2004  W 4-0  Honduras           11,553  Foxboro, MA, USA   McBride (22,37), Lewis (77), Sanneh (81) 
+Apr 28 2004  W 1-0  Mexico             45,048  Dallas, TX, USA
+Mar 31 2004  W 1-0  Poland             10,000  Plock, Poland   Beasley (26)
+Mar 13 2004  D 1-1  Haiti               8,714  Miami, FL, USA   Califf (94)
+Feb 18 2004  L 0-1  Netherlands        27,000  Amsterdam, Neth.
+Jan 18 2004  D 1-1  Denmark            10,461  Carson, CA, USA   Donovan (77-PK)
+==
+     2003 Totals:   10W, 2D, 4L
+Jul 26 2003  W 3-2  Costa Rica          5,093  Miami, FL, USA (GC ’03)   Bocanegra (29), Stewart (56), Convey (67)
+Jul 23 2003  L 1-2  Brazil             35,211  Miami, FL, USA (GC ’03)   Boconegra (62)
+Jul 19 2003  W 5-0  Cuba               15,627  Foxboro, MA, USA (GC ’03)   Donovan (22, 26, 55, 76), Ralston (42)
+Jul 14 2003  W 2-0  Martinique          8,780  Foxboro, MA, USA (GC ’03)   McBride (39,43)
+Jul 12 2003  W 2-0  El Salvador        33,652  Foxboro, MA, USA (GC ’03)   Lewis (28), McBride (76)
+Jul 06 2003  W 2-0  Paraguay           14,103  Columbus, OH, USA   Donovan (12), Stewart (95)
+Jun 23 2003  D 0-0  Cameroon           19,206  Lyon, France (Conf. Cup)
+Jun 21 2003  L 0-1  Brazil               n/a   Lyon, France (Conf. Cup)
+Jun 19 2003  L 1-2  Turkey             16,944  St. Etienne, France (Conf. Cup)   Beasley (36)
+Jun 08 2003  W 2-1  New Zealand         9,116  Richmond, VA, USA   Klein (20), Kirovski (65)
+May 26 2003  W 2-0  Wales              12,282  San Jose, CA, USA   Donovan (41-pk), Lewis (59)
+May 08 2003  D 0-0  Mexico             69,582  Houston, TX, USA
+Mar 29 2003  W 2-0  Venezuela          17,819  Seattle, WA, USA   Kirovski (53), Donovan (77)
+Feb 12 2003  W 2-1  Jamaica            27,000  Kingston, Jamaica   Bocanegra (11), Klein (12); Jamaica: Lowe (52)
+Feb 08 2003  L 0-1  Argentina          27,196  Miami, FL, USA
+Jan 18 2003  W 4-0  Canada              6,549  Ft. Lauderdale, FL, USA   Bocanegra (6), Mathis (30), Klein (31), Ralston (61)
+==
+     2002 Totals:   13W, 1D, 6L
+Nov 17 2002  W 2-0  El Salvador        15,390  Washington, DC, USA   Olsen (31), Victorine (60)
+Jun 21 2002  L 0-1  Germany            37,337  Ulsan, South Korea (WC’02)
+Jun 17 2002  W 2-0  Mexico             36,380  Jeonju, South Korea (WC’02)   McBride (8), Donovan (65)
+Jun 14 2002  L 1-3  Poland             26,482  Daejeon, South Korea (WC’02)   Donovan (24)
+Jun 10 2002  D 1-1  South Korea        60,778  Daegu, South Korea (WC’02)   Mathis (24)
+Jun 05 2002  W 3-2  Portugal           37,306  Suwon, South Korea (WC’02)   O’Brien (4), o.g. (29), McBride (36)
+May 19 2002  L 0-2  Netherlands        36,778  Foxboro, MA, USA (RTK ’02)
+May 16 2002  W 5-0  Jamaica            30,569  East Rutherford, NJ, USA (RTK ’02)   Wolff (32,60), Mathis (48), Donovan (84), Beasley (92)
+May 12 2002  W 2-1  Uruguay            30,413  Washington, DC, USA (RTK ’02)   Sanneh (6), Beasley (40)
+Apr 17 2002  L 1-2  Ireland            39,000  Dublin, Ireland   Pope (34)
+Apr 03 2002  W 1-0  Mexico             48,476  Denver, CO, USA   Mathis (67)
+Mar 27 2002  L 2-4  Germany            29,000  Rostock, Germany   Mathis (17,72)
+Mar 10 2002  W 1-0  Ecuador            24,133  Birmingham, AL, USA   Lewis (21)
+Mar 02 2002  W 4-0  Honduras           38,534  Seattle, WA, USA   Mathis (14,59), Donovan (44,67)
+Feb 13 2002  L 0-1  Italy              25,493  Catania, Italy
+Feb 02 2002  W 2-0  El Salvador        14,432  Pasadena, CA, USA (GC ’02)   Wolff 37, Agoos 63
+Jan 30 2002  W 0-0  Canada  (4-2 PK)    7,241  Pasadena, CA, USA (GC ’02)
+Jan 27 2002  W 4-0  El Salvador        31,628  Pasadena, CA, USA (GC ’02)   McBride (11,12,21), Razov (74)
+Jan 21 2002  W 1-0  Cuba               31,244  Pasadena, CA, USA (GC ’02)   McBride (21-pk)
+Jan 19 2002  W 2-1  South Korea        42,117  Pasadena, CA, USA (GC ’02)   Donovan (35), Beasley (90)
+==
+     2001 Totals:   6W, 3D, 6L
+Dec 09 2001  L 0-1  South Korea        42,256  Seogwipo, South Korea
+Nov 11 2001  D 0-0  Trinidad & Tobago   6,000  Port of Spain, Trin/Tob (WCQ '02)
+Oct 07 2001  W 2-1  Jamaica            40,483  Foxboro, MA, USA (WCQ '02)   Moore (14, 81-pk)
+Sep 05 2001  L 0-2  Costa Rica         30,000  San Jose, Costa Rica (WCQ '02)
+Sep 01 2001  L 2-3  Honduras           54,282  Washington, DC, USA (WCQ '02)   Stewart (7,83)
+Jul 01 2001  L 0-1  Mexico            100,000  Mexico City, Mexico(WCQ '02)
+Jun 20 2001  W 2-0  Trinidad & Tobago  31,211  Foxboro, MA, USA (WCQ '02)   Razov (2), Stewart (20)
+Jun 16 2001  D 0-0  Jamaica            35,000  Kingston, Jamaica (WCQ '02)
+Jun 07 2001  D 0-0  Ecuador            12,572  Columbus, OH, USA
+Apr 25 2001  W 1-0  Costa Rica         37,391  Kansas City, MO, USA (WCQ '02)   Wolff (70)
+Mar 28 2001  W 2-1  Honduras           46,000  San Pedro Sula, Honduras (WCQ '02)   Stewart (33), Mathis (87)
+Mar 03 2001  L 1-2  Brazil             45,387  Pasadena, CA, USA   Mathis (40)
+Feb 28 2001  W 2-0  Mexico             24,624  Columbus, OH, USA (WCQ '02)   Wolff (47), Stewart (87)
+Feb 03 2001  L 0-1  Colombia           14,169  Miami, FL, USA
+Jan 27 2001  W 2-1  China               8,906  Oakland, CA, USA   McBride (27), Own Goal (46)
+==
+     2000 Totals:   9W, 6D, 2L
+Nov 15 2000  W 4-0  Barbados            4,000  Waterford, Barbados (WCQ '02)   Mathis (63), Stewart (73), Jones (77), Razov (93)
+Oct 25 2000  W 2-0  Mexico             51,072  Los Angeles, CA, USA   Donovan (50), Wolff (78)
+Oct 11 2000  D 0-0  Costa Rica         24,330  Columbus, OH, USA (WCQ '02)
+Sep 03 2000  W 1-0  Guatemala          51,556  Washington, DC, USA (WCQ '02)   McBride (72)
+Aug 16 2000  W 7-0  Barbados           18,334  Foxboro, MA, USA (WCQ '02)   Pope (13), McBride (18), Moore (45, 82), O'Brien (46), Ramos (72),   Stewart (74)
+Jul 23 2000  L 1-2  Costa Rica         28,000  San Jose, Costa Rica (WCQ '02)   Stewart (65)
+Jul 16 2000  D 1-1  Guatemala           9,500  Mazatenango, Guatemala (WCQ '02)   Razov (46)
+Jun 11 2000  W 3-0  Mexico             45,008  East Rutherford, NJ, USA (USA 2000)   McBride (33), Hedjuk (79), Razov (85)
+Jun 06 2000  D 1-1  Ireland            16,319  Foxboro, MA, USA (USA 2000)   Razov (68)
+Jun 03 2000  W 4-0  South Africa       16,570  Washington, DC, USA (USA 2000)   Jones (36,43), Reyna (65), Stewart (68)
+Apr 26 2000  L 0-2  Russia             12,500  Moscow, Russia
+Mar 12 2000  D 1-1  Tunisia            21,637  Birmingham, AL, USA   Olsen (92)
+Feb 19 2000  D 2-2  Colombia (1-2 PK)  32,972  Miami, FL, USA (GC 2000)   McBride (20), Armas (51)
+Feb 16 2000  W 1-0  Peru               36,004  Miami, FL, USA (GC 2000)   Jones (59)
+Feb 12 2000  W  3-0 Haiti              49,513  Miami, FL, USA (GC 2000)   Kirovski (18), Wynalda (55-pk), Jones (89)
+Jan 29 2000  W 2-1  Chile              11,000  Coquimbo, Chile   Lewis (55), Jones (88)
+Jan 16 2000  D 1-1  Iran               49,212  Pasadena, CA, USA   Armas (48)
+==
+     1999 Totals:   8W, 2D, 4L
+Nov 17 1999  L 1-2  Morocco            18,000  Marrakesh, Morocco   Wynalda (19)
+Sep 08 1999  D 2-2  Jamaica            20,000  Kingston, Jamaica   Kris (5), Albright (80)
+Aug 03 1999  W 2-0  Saudi Arabia       35,000  Guadalajara, Mex. (Conf. Cup)   Bravo (28), McBride (80)
+Aug 01 1999  L 0-1  Mexico             80,000  Mexico City, Mex. (Conf. Cup)
+Jul 30 1999  W 2-0  Germany            53,000  Guadalajara, Mex. (Conf. Cup)   Olson (24), Bravo (50)
+Jul 28 1999  L 0-1  Brazil             54,000  Guadalajara, Mex. (Conf. Cup)
+Jul 24 1999  W 2-1  New Zealand        60,000  Guadalajara, Mex. (Conf. Cup)   McBride 26, Kirovski 57
+Jul 17 1999  W 2-1  Derby County       20,376 +Denver, CO, USA (Exh.)   Lewis 64, Olsen 76
+Jun 13 1999  W 1-0  Argentina          40,119  Washington, DC, USA   Moore (87)
+Mar 13 1999  L 1-2  Mexico             50,324  San Diego, CA (USA '99)   Hejduk (51)
+Mar 11 1999  W 3-1  Guatemala          34,154  Los Angeles, CA (USA'99)   Moore (22), McBride (37), Hejduk (90)
+Feb 21 1999 W 2-1  Chile              14,898  Ft. Lauderdale, FL   Oleson (56), Lewis (65)
+Feb 06 1999  W 3-0  Germany            17,259  Jacksonville, FL   Kirovski (16), Sanneh (24), Reyna (26)
+Jan 24 1999  D 0-0  Bolivia            39,000  Santa Cruz, Bolivia
+==
+     1998 Totals:   6W,  4D,  6L
+Nov 06 1998  D 0-0  Australia          15,074  San Jose, CA
+Jun 25 1998  L 0-1  Yugoslavia         39,500  Nantes, France (WC'98)
+Jun 21 1998  L 1-2  Iran               44,000  Lyon, France (WC'98)   McBride (87)
+Jun 15 1998  L 0-2  Germany            43,815  Paris, France (WC'98)
+May 30 1998  D 0-0  Scotland           46,037  Washington, DC, USA
+May 24 1998  W 2-0  Kuwait             25,343  Portland, OR, USA   Stewart (37), Ramos (82)
+May 16 1998  D 0-0  Macedonia          23,861  San Jose, CA, USA
+Apr 22 1998  W 3-0  Austria            17,000  Vienna, Austria   Hedjuk (54), McBride (89), Reyna (90)
+Mar 14 1998  D 2-2  Paraguay           15,253  San Diego, CA, USA   Deering (21), Balboa (50)
+Feb 25 1998  L 0-2  Belgium            15,894  Brussels, Belgium
+Feb 21 1998  L 0-2  Netherlands        20,379  Miami, FL, USA
+Feb 15 1998  L 0-1  Mexico             91,255  Los Angeles, CA, USA (GC'98)
+Feb 10 1998  W 1-0  Brazil             12,298  Los Angeles, CA, USA (GC'98)   Preki (76)
+Feb 07 1998  W 2-1  Costa Rica         36,240  Oakland, CA, USA (GC'98)   Pope (7), Preki (78)
+Feb 01 1998  W 3-0  Cuba               11,234  Oakland, CA, USA (GC'98)   Wegerle (22), Wynalda (58), Moore (76-pk)
+Jan 24 1998  W 1-0  Sweden             12,773  Orlando, FL, USA   Wegerle (2)
+==
+     1997 Totals:  5W,  7D,  6L
+Nov 16 1997  W 4-2  El Salvador        53,165  Foxboro, MA, USA (WCQ'98)   McBride (22), McBride (28), Henderson (49), Preki (82)
+Nov 09 1997  W 3-0  Canada              8,420  Vancouver, BC, Canada (WCQ'98)   Reyna (5), Wegerle (81,90)
+Nov 02 1997  D 0-0  Mexico            114,600  Mexico City, Mexico (WCQ'98)
+Oct 03 1997  D 1-1  Jamaica            51,528  Washington, DC,, USA (WCQ'98)   Wynalda (59)
+Sep 07 1997  W 1-0  Costa Rica         27,369  Portland, OR, USA (WCQ'98)   Ramos (78)
+Aug 07 1997  L 0-1  Ecuador            13,629  Baltimore, MD, USA
+Jun 29 1997  D 1-1  El Salvador        29,000  San Salvador, El Salv (WCQ'98)   Lassiter (51)
+Jun 17 1997  W 2-1  Israel              8,436  Jacksonville, FL   Lalas (28), Kirovski (63)
+Jun 04 1997  D 0-0  Paraguay            7,016  St. Louis, MO
+Apr 20 1997  D 2-2   Mexico            57,877  Foxboro, MA, USA (WCQ'98)   Pope (35), Ramirez (Own goal, 74)
+Mar 23 1997  L 2-3   Costa Rica        22,000  San Jose, Costa Rica (WCQ'98)   Wynalda (24), Lassiter (68)
+Mar 16 1997  W 3-0   Canada            28,896  Palo Alto, CA, USA (WCQ'98)   Wynalda (8), Pope (14), Stewart (89)
+Mar 02 1997  D 0-0   Jamaica           35,764  Kingston, Jamaica (WCQ'98)
+Feb 01 1997  D 1-1   China             35,000  Guangzhou, China   Lalas (25)
+Jan 29 1997  L 1-2   China             40,000  Kunming, China   Wynalda (72)
+Jan 22 1997  L 1-4   Denmark           17,342  Pasadena, CA (USA'97)   Moore (45)
+Jan 19 1997  L 0-2   Mexico            35,232  Pasadena, CA (USA'97)
+Jan 17 1997  L 0-1   Peru              31,725  San Diego, CA (USA'97)
+==
+     1996 Totals:  10W,  2D,  4L
+Dec 21 1996  D 2-2   Guatemala          7,106  San Salvador, El Salvador (WCQ'98)   Preki (7), Hejduk (49)
+Dec 14 1996  W 2-1   Costa Rica        40,527  Palo Alto, CA (WCQ'98)   McBride (17), Lassiter (60)
+Dec 01 1996  L 1-2   Costa Rica        25,000  San Jose, C.R. (WCQ'98)   Jones (90)
+Nov 24 1996  W 1-0   Trinidad & Tobago  8,000  Port of Spain, T&T (WCQ'98)   Moore (34)
+Nov 10 1996  W 2-0   Trinidad & Tobago 19,312  Richmond, VA, USA (WCQ'98)   Dooley (52), Wynalda (84)
+Nov 03 1996  W 2-0   Guatemala         30,082  Washington, DC, USA (WCQ'98)   Wynalda (54), McBride (90)
+Oct 16 1996  L 1-4   Peru               5,000  Lima, Peru   Brose (44)
+Aug 30 1996  W 3-1   El Salvador       18,661  Los Angeles, CA, USA   Moore (3), Wynalda (60), Moore (88)
+Jun 16 1996  D 2-2   Mexico            92,216  Pasadena, CA, USA (US'96)   Wynalda (34), Dooley (90)
+Jun 12 1996  L 0-2   Bolivia           19,350  Washington, DC, USA (US'96)
+Jun 09 1996  W 2-1   Ireland           25,421  Foxboro, MA, USA (US'96)   Ramos (57), Reyna (75)
+May 26 1996  W 2-1   Scotland           8,526  New Britain, CT, USA    Wynalda (13), Jones (72)
+Jan 21 1996  W 3-0   Guatemala         88,125  Los Angeles, CA, USA (GC'96)   Wynalda (34), Agoos (37), Kirovski (87)
+Jan 18 1996  L 0-1   Brazil            22,038  Los Angeles, CA, USA (GC'96)
+Jan 16 1996  W 2-0   El Salvador       52,345  Anaheim, CA, USA (GC'96)   Wynalda (65), Balboa (75)
+Jan 13 1996  W 3-2   Trinidad & Tobago  9,850  Anaheim, CA, USA (GC'96)   Wynalda (14), Wynalda (33), Moore (53)
+=
+     1995 Totals:  7W,  2D,  7L
+Oct 08 1995  W 4-3  Saudi Arabia       10,216  Washington, DC, USA   Lalas (36), Moore (48), Ramos (62), Lassiter (67)
+Aug 16 1995  L 0-1  Sweden             14,246  Norrkoping, Sweden
+Aug 06 1995  W 2-1  Benfica            32,859 +East Rutherford, NJ (Parmalat)   Klopas (13), Lassiter (68)
+Aug 04 1995  L 1-2  Parma FC           34,826 +East Rutherford, NJ (Parmalat)   Lapper (54)
+Jul 22 1995  L 1-4  Colombia            6,000  Maldonado, Uruguay (CA'95)   Moore (52)
+Jul 20 1995  L 0-1  Brazil              6,000  Maldonado, Uruguay (CA'95)
+Jul 17 1995  W 0-0  Mexico      (4-1PK) 9,000  Paysandu, Uruguay (CA'95)
+Jul 14 1995  W 3-0  Argentina          21,000  Paysandu, Uruguay (CA'95)   Klopas (21), Lalas (31), Wynalda (58)
+Jul 11 1995  L 0-1  Bolivia            21,500  Paysandu, Uruguay (CA'95)
+Jul 08 1995  W 2-1  Chile              22,000  Paysandu, Uruguay (CA'95)   Wynalda (15,29)
+Jun 25 1995  D 0-0  Colombia           36,126  Piscataway, NJ, USA (US'95)
+Jun 18 1995  W 4-0  Mexico             38,615  Washington, DC, USA (US'95)   Wegerle (4), Dooley (25), Wynalda (36), Harkes (68)
+Jun 11 1995  W 3-2  Nigeria            22,578  Foxboro, MA, USA (US'95)   Harkes (11), Balboa (45), Jones (68)
+May 28 1995  L 1-2  Costa Rica          7,415  Tampa, FL, USA   Caligiuri (73)
+Apr 22 1995  L 0-1  Belgium            14,000  Brussels, Belgium
+Mar 25 1995  D 2-2  Uruguay            12,242  Dallas, TX, USA   Kerr (8), Stewart (67)
+==
+     1994 Totals:   9W,  10D,  10L
+Dec 11 1994  D 1-1  Honduras            1,094  Fullerton, CA, USA   Kirovski (90)
+Dec 09 1994  W 2-0  Trinidad & Tobago U-23    +Fullerton, CA, USA*
+Nov 22 1994  W 3-0  Jamaica            30,199  Kingston, Jamaica.   Kirovski (25), Klopas (52,62-P)
+Nov 19 1994  L 0-1  Trinidad & Tobago  22,000  Port of Spain, Trinidad
+Oct 19 1994  L 1-2  Saudi Arabia        9,256  Dhahran, Saudia Arabia   Klopas (63)
+Sep 07 1994  L 0-2  England            38,629  London, England
+Jul 04 1994  L 0-1  Brazil             84,177  Palo Alto, CA, USA (WC'94)
+Jun 26 1994  L 0-1  Romania            93,869  Pasadena, CA, USA (WC'94)
+Jun 22 1994  W 2-1  Colombia           93,194  Pasadena, CA, USA (WC'94)   Own goal (Escobar) (35), Stewart (52)
+Jun 18 1994  D 1-1  Switzerland        73,425  Pontiac, MI, USA (WC'94)   Wynalda (45)
+Jun 04 1994  W 1-0  Mexico             92,405  Pasadena, CA, USA   Wegerle
+May 28 1994  D 1-1  Greece             21,317  New Haven, CT, USA   Klopas
+May 25 1994  D 0-0  Saudi Arabia        5,576  Piscataway, NJ, USA
+May 15 1994  W 1-0  Armenia             9,753  Fullerton, CA, USA   Klopas
+May 07 1994  W 4-0  Estonia             2,158  Fullerton, CA, USA   Balboa, Reyna, Klopas, Moore
+Apr 30 1994  L 0-2  Chile              15,610  Albuquerque, NM, USA
+Apr 24 1994  L 1-2  Iceland             3,017  Chula Vista, CA, USA   Klopas (47)
+Apr 20 1994  W 3-0  Moldova             4,790  Davidson, NC, USA   Klopas (3), Lapper (40), Reyna (59)
+Apr 16 1994  D 1-1  Moldova             6,103  Jacksonville, FL, USA   Sorber (47)
+Mar 26 1994  D 2-2  Bolivia            26,385  Dallas, TX, USA   Perez (31,48)
+Mar 12 1994  D 1-1  South Korea        10,319  Fullerton,CA, USA   Balboa (64)
+Mar 05 1994  W 1-0  South Korea             0 +Monterey Park, CA, USA    Reyna (__)                    (Closed Door - Exh.)
+Feb 20 1994  L 1-3  Sweden             20,171  Miami,FL, USA   Perez (4)
+Feb 18 1994  D 1-1  Bolivia            15,676  Miami, FL, USA (Joe Robbie Cup)   Jones (78)
+Feb 13 1994  L 1-2  Romania             9,000  Hong Kong (Carlsberg Cup)   Balboa (14)
+Feb 10 1994  L 0-0  Denmark (2-4PK)     9,000  Hong Kong (Carlsberg Cup)
+Jan 29 1994  D 1-1  Russia             43,651  Seattle, WA, USA   Lalas (85)
+Jan 22 1994  D 1-1  Switzerland        10,173  Fullerton, CA, USA   Vermes (77)
+Jan 15 1994  W 2-1  Norway             15,386  Tempe, AZ, USA   Balboa (55), Jones (89)
+======================================================================
+    1993 Totals:  10W,  11D, 13L
+Dec 18 1993  L 0-3  Germany            52,397  Palo Alto, CA, USA
+Dec 11 1993  W 2-1  Konigsvinger, Nor.  7,000 +Fullerton, CA, USA (Exh.)   Perez, Jones
+Dec 05 1993  W 7-0  El Salvador         7,618  Los Angeles, CA, USA   Kinnear (28,43), Moore (35,42,65,70), Perez (57)
+Nov 14 1993  W 8-1  Cayman Islands      3,612  Mission Viejo, CA   Kinnear (9,30), Moore (19,88), Chung (46,85), Agoos (33),    Santel (87)
+Nov 07 1993  W 1-0  Jamaica             5,318  Fullerton, CA    Lalas (32)
+Oct 23 1993  L 0-1  Ukraine             7,896  Bethlehem, PA, USA
+Oct 16 1993  L 1-2  Ukraine             4,298  High Point, NC, USA   Perez (26)
+Oct 13 1993  D 1-1  Mexico             23,927  Washington, DC, USA   Jones (82)
+Sep 08 1993  L 0-1  Norway             16,348  Oslo, Norway
+Aug 31 1993  W 1-0  Iceland             3,700  Reykjavik, Iceland   Stewart
+Jul 25 1993  L 0-4  Mexico            120,000  Mexico City, Mex.(GC'93)
+Jul 21 1993  W 1-0  Costa Rica         14,826  Dallas, TX, USA (GC'93)   Kooiman (103)
+Jul 17 1993  W 1-0  Honduras           18,107  Dallas, TX, USA (GC'93)   Lalas (29)
+Jul 14 1993  W 2-1  Panama             13,771  Dallas, TX, USA (GC'93)   Wynalda (69), Dooley (74)
+Jul 10 1993  W 1-0  Jamaica            11,642  Dallas, TX, USA (GC'93)   Wynalda (67)
+Jun 22 1993  D 3-3  Venezuela          55,000  Quito, Ecuador (CA'93)   Henderson (21), Lalas (37), Kinnear (52)
+Jun 21 1993  W 3-0  Canada                    +Pontiac, MI, USA
+Jun 19 1993  L 0-2  Ecuador            55,000  Quito, Ecuador (CA'93)
+Jun 16 1993  L 0-1  Uruguay            20,000  Ambato, Ecuador (CA'93)
+Jun 13 1993  L 3-4  Germany            53,549  Chicago, IL, USA (WSS, US'93)   Dooley (25,79), Stewart (72)
+Jun 09 1993  W 2-0  England            37,652  Foxboro, MA, USA (WSS, US'93)   Dooley (42), Lalas (72)
+Jun 06 1993  L 0-2  Brazil             44,579  New Haven, CT, USA (WSS,US'93)
+May 26 1993  D 0-0  Peru                5,500  Mission Viejo, CA, USA
+May 23 1993  D 0-0  Bolivia             9,578  Fullerton, CA, USA
+May 08 1993  L 1-2  Colombia           17,652  Miami, FL, USA (WSS)   Lalas
+Apr 22 1993  W 3-0  Kedah               2,856 +Mission Viejo, CA, USA (Exh.)
+Apr 17 1993  D 1-1  Iceland             3,143  Costa Mesa, CA, USA   Vermes (89)
+Apr 09 1993  W 2-0  Saudi Arabia       27,000  Riyadh, Saudi Arabia   Moore (79), Michallik (82)
+Mar 25 1993  L 1-4  Honduras           24,000  Tegucigalpa, Honduras   Alnutt (44)
+Mar 23 1993  D 2-2  El Salvador        23,000  San Salvador, El Salvador   Alnutt (49), Jones (53)
+Mar 14 1993  L 1-3  Japan              48,000  Tokyo, Japan (Kirin Cup)   Perez (23)
+Mar 10 1993  D 0-0  Hungary            12,500  Nagoya, Japan (Kirin Cup)
+Mar 03 1993  D 2-2  Canada              5,743  Costa Mesa, CA   Kinnear (3), Murray (64 P)
+Feb 21 1993  L 0-1  Russia             25,879  Palo Alto, CA, USA (WSS)
+Feb 13 1993  D 0-0  Russia             13,651  Orlando, FL, USA (WSS)
+Feb 09 1993  W 2-1  FC Zurich           5,327 +Mission Viejo, CA (Exh.)
+Feb 06 1993  D 1-1  Romania             9,127  Santa Barbara, CA, USA   Kinnear (2)
+Jan 30 1993  D 2-2  Denmark            13,215  Tempe, AZ, USA (WSS)   Murray (58), Moore (87)
+
+    1992 Totals:  6W, 4D, 11L
+Oct 19 1992  W 5-2  Ivory Coast         9,500  Riyadh, Saudi Arabia (IC)   Balboa (12), Jones (31), Wynalda (56), Murray (67,83)
+Oct 15 1992  L 0-3  Saudi Arabia       70,000  Riyadh, Saudi Arabia (IC)
+Oct 09 1992  D 0-0  Canada              2,097  Greensboro, NC, USA
+Sep 03 1992  W 2-0  Canada              3,500  St. John's, Canada   Sorber (26), Vermes (60)
+Aug 02 1992  L 0-1  Brazil             17,021  Los Angeles, CA, USA
+Jul 31 1992  L 0-1  Columbia           26,651  Los Angeles, CA, USA
+Jun 27 1992  D 0-0  Ukraine            11,815  Piscataway, NJ, USA
+Jun 13 1992  L 0-1  Australia          17,309  Orlando, FL, USA
+Jun 06 1992  D 1-1  Italy              26,874  Chicago, IL, USA (USA'92)   Harkes (23)
+Jun 03 1992  W 1-0  Portugal           10,402  Chicago, IL, USA (USA'92)   Wegerle (35)
+May 30 1992  W 3-1  Rep. Ireland       35,696  Washington, DC, USA (USA'92)   Balboa (54), Ramos (70), Harkes (87)
+May 17 1992  L 0-1  Scotland           24,000  Denver, CO, USA
+Apr 29 1992  L 1-4  Ireland            27,000  Dublin, Ireland   Wynalda (89)
+Apr 04 1992  W 5-0  China              31,815  Palo Alto, CA, USA   Perez (12,75), Wynalda (28,78), Kinnear (49)
+Mar 18 1992  L 1-3  Morocco            20,000  Casablanca, Morocco   Perez (58)
+Mar 11 1992  L 0-2  Spain              35,000  Valladoid, Spain
+Feb 26 1992  L 0-3  Brazil             40,000  Fortaleza, Brazil
+Feb 18 1992  L 0-2  El Salvador        45,000  San Salvador, El Salvador
+Feb 12 1992  D 0-0  Costa Rica         22,000  San Jose, Costa Rica
+Feb 02 1992  W 2-1  C.I.S.             35,248  Pontiac, MI, USA   Wynalda (3), Balboa (75-P)
+Jan 25 1992  L 0-1  C.I.S.         (K) 30,386  Miami, FL, USA
+
+    1991 Totals:  9W,  4D,  4L
+Nov 24 1991  D 1-1  Costa Rica         22,787  Dallas, TX, USA   Kinnear (6)
+Oct 19 1991  L 1-2  North Korea        16,351  Washington, DC, USA   Murray (25)
+Sep 14 1991  W 1-0  Jamaica             9,128  High Point, NC, USA   Gjonbalaj (38)
+Sep 04 1991  D 1-1  Turkey             17,500  Istanbul, Turkey   Klopas (83)
+Aug 28 1991  W 2-0  Romania             7,500  Brasov, Romania   Balboa (40), Murray (58)
+Jul 07 1991  W 0-0  Honduras (4-3 PK)39,873  Los Angeles,CA,USA (GC'91)
+Jul 05 1991  W 2-0  Mexico             41,103  Los Angeles, CA, USA (GC'91)   Doyle (48), Vermes (64)
+Jul 03 1991  W 3-2  Costa Rica         36,703  Los Angeles, CA, USA (GC'91)   Vermes (6), Perez (49 - open), Og (59)
+Jul 01 1991  W 3-0  Guatemala           6,344  Pasadena, CA, USA (GC'91)   Murray (11),Quinn (46), Wynalda (52)
+Jun 29 1991  W 2-1  Trinidad & Tobago  18,435  Pasadena, CA, USA (GC'91)   Murray (85), Balboa (87)
+Jun 01 1991  D 1-1 Ireland             51,273  Foxboro, MA, USA   Wynalda (68)
+May 19 1991  L 0-1  Argentina          31,763  Palo Alto, CA, USA
+May 05 1991  W 1-0  Uruguay            35,772  Denver, CO, USA    Vermes (26)
+Mar 16 1991  W 2-0  Canada              4,000  Torrance, CA, USA (NAC)   Washington (13), Murray (60)
+Mar 12 1991  D 2-2  Mexico              5,261  Los Angeles, CA, USA (NAC)   Washington (44), Murray (89)
+Feb 21 1991  L 0-1  Bermuda            12,000  Hamilton, Bermuda
+Feb 01 1991  L 0-1  Switzerland        10,000  Miami, FL, USA
+
+    1990 Totals:  7W,  2D,  13L
+Dec 19 1990  L 0-1  Portugal            1,500  Oporto, Portugal
+Nov 21 1990  D 0-0  Soviet Union        3,500  Port-of-Spain, Trinidad
+Nov 18 1990  D 0-0  Trinidad           12,000  Port-of-Spain, Trinidad
+Oct 10 1990  W 3-2  Poland             33,900  Warsaw, Poland   Murray (24), Vermes (24,44)
+Sep 15 1990  W 3-0  Trinidad           11,361  High Point, NC, USA   Vermes (15), Murray (29), Eichman (46)
+Jul 28 1990  L 1-2  East Germany       12,572  Milwaukee, WI, USA   Eck (89)
+Jun 19 1990  L 1-2  Austria            34,857  Florence, Italy (WC'90)   Murray
+Jun 14 1990  L 0-1  Italy              73,659  Rome, Italy (WC'90)
+Jun 10 1990  L 1-5  Czechoslovakia     33,900  Florence, Italy (WC'90)   Caligiari
+Jun 02 1990  L 1-2  Switzerland         4,500  St. Gallen, Switzerland   Murray
+May 30 1990  W 4-1  Liechtenstein       2,400  Eschen-Mauren, Liechtenstein   Vermes, Balboa, Wynalda, Henderson
+May 12 1990  D 1-1  VS Ajax            18,245 +Washington, DC   Harkes
+May 09 1990  W 3-1  Poland             12,063  Hershey, PA, USA   Murray, Vermes, Sullivan
+May 05 1990  W 1-0  Malta               8,604  Piscataway, NJ, USA   Wynalda
+Apr 22 1990  L 0-1  Colombia            8,214  Miami, FL, USA
+Apr 08 1990  W 4-1  Iceland             3,287  Fenton, MO, USA   Wynalda (2), Murray, Trittschuh
+Mar 28 1990  L 2-3  East Germany        4,000  Berlin, East Germany   Murray, Vermes
+Mar 20 1990  L 0-2  Hungary            15,000  Budapest, Hungary
+Mar 10 1990  W 2-1  Finland            22,647  Tampa, FL, USA   Murray, Caligiuri
+Feb 24 1990  L 1-3  Soviet Union       61,000  Palo Alto, CA, USA   Harkes
+Feb 13 1990  W 1-0  Bermuda             1,800  Hamilton, Bermuda   Sullivan
+Feb 04 1990  L 1-1  Colombia  (8-9 PK) 15,000  Miami, FL, USA   Wynalda
+Feb 02 1990  L 0-2  Costa Rica         25,392  Miami, FL, USA
+
+    1989 Totals:  6W,  3D,  3L
+Nov 19 1989  W 1-0  Trinidad           35,000  Port of Spain, Trin.(WCQ'90)   Caligiuri
+Nov 14 1989  W 2-1  Bermuda      (closed door) Cocoa Beach, FL, USA    Eichmann, Doyle
+Nov 05 1989  D 0-0  El Salvador         8,500  St. Louis, MO, USA (WCQ)
+Oct 08 1989  D 0-0  Guatemala           8,000  Guatemala City, Guat.(WCQ'90)
+Sep 17 1989  W 1-0  El Salvador         3,700  Tegucigalpa, Honduras (WCQ'90)   Perez
+Aug 13 1989  L 1-2  South Korea        23,191  Los Angeles, CA, USA   Harkes
+Jun 24 1989  L 0-1  Colombia           15,233  Miami, FL, USA
+Jun 17 1989  W 2-1  Guatemala          10,516  New Britain, CT, USA(WCQ'90)   Murray, Eichmann
+Jun 04 1989  W 3-0  Peru               33,133  East Rutherford, NJ, USA   Murray, Ramos, Bliss
+May 13 1989  D 1-1  Trinidad           10,000  Torrance, CA, USA(WCQ'90)   Trittschuh
+Apr 30 1989  W 1-0  Costa Rica          8,500  St. Louis, MO, USA(WCQ'90)   Ramos
+Apr 16 1989  L 0-1  Costa Rica         26,271  San Jose, Costa Rica(WCQ'90)
+
+    1988 Totals:  4W,  5D,  8L
+Sep 22 1988  L 2-4  Soviet Union              +Taegu, South Korea (OLY'88)
+Sep 20 1988  D 0-0  South Korea        22,000  Pusan, South Korea (OLY'88)
+Sep 18 1988  D 1-1  Argentina                 +Taegu, South Korea (OLY'88)
+Aug 13 1988  W 5-1  Jamaica             6,100  St. Louis, MO, USA(WCQ'90)   Klopas (2), Bliss, Krumpe, Perez
+Jul 24 1988  D 0-0  Jamaica            15,000  Kingston, Jamaica(WCQ'90)
+Jul 13 1988  L 0-2  Poland             10,213  New Britain, CT, USA
+Jun 19 1988  L 2-3  Nigeria                    Kwangju, South Korea   Trittschuh (2)
+Jun 14 1988  W 1-0  Costa Rica                 San Antonio, TX, USA   Ryerson
+Jun 12 1988  D 0-0  Ecuador             7,250  Fort Worth, TX, USA
+Jun 10 1988  L 0-2  Ecuador                    Houston, TX, USA
+Jun 07 1988  L 0-1  Ecuador                    Albuquerque, NM, USA
+Jun 05 1988  L 0-3  Chile                      Fresno, CA, USA
+Jun 03 1988  L 1-3  Chile                      San Diego, CA, USA   Borja
+Jun 01 1988  D 1-1  Chile                      Stockton, CA, USA   Eichmann
+May 25 1988  W 4-1  El Salvador         9,520 +Indianapolis, IN, USA (OLQ'88)   Goulet (2), Davis, Og
+May 14 1988  L 0-2  Colombia           15,371  Miami, FL, USA
+Jan 13 1988  W 1-0  Guatemala                  Guatemala City, Guatemala   Agoos
+Jan 10 1988  L 0-1  Guatemala                  Guatemala City, Guatemala
+
+    1987 Totals:  6W,  1D,  3L
+Oct 18 1987  W 4-2  El Salvador        45,000 +San Salvador, El Salv (OLQ'88)   Perez (2), Goulet, Klopas
+Sep 20 1987  W 1-0  Trinidad           12,000 +Port of Spain, Trin. (OLQ'88)   Perez
+Sep 05 1987  W 4-1  Trinidad            3,109 +Fenton, MO, USA (OLQ'88)   Goulet (3), Stollmeyer
+Aug 15 1987  L 0-2  Argentina                 +Indianapolis, IN, USA (PAG)
+Aug 12 1987  D 0-0  El Salvador         5,500 +Indianapolis, IN, USA
+Aug  9 1987  W 3-1  Trinidad            8,500 +Indianapolis, IN, USA (PAG)   Hantak (2), Klopas
+Jun 16 1987  W 1-0  Thailand                   Chongju, South Korea   Hantak
+Jun 12 1987  L 0-1  South Korea                Pusan, South Korea
+Jun 08 1987  L 1-3  Egypt                      Seoul, South Korea   Hantak
+May 30 1987  W 3-0  Canada              5,235  Fenton, MO (OLQ'88)   Krumpe (2), Gabarra
+May 23 1987  L 0-2  Canada              7,025  St. John’s, Canada (OLQ'88)
+
+    1986 Totals:  0W,  2D,  0L
+Feb 07 1986  D 1-1  Uruguay            15,852  Miami, FL, USA   Murray
+Feb 05 1986  D 0-0  Canada              5,182  Miami, FL, USA
+
+    1985 Totals:  2W,  3D,  3L
+Jun 16 1985  L 0-5  England            10,145  Los Angeles, CA, USA
+May 31 1985  L 0-1  Costa Rica         11,800  Torrance, CA, USA (WCQ'86)
+May 26 1985  D 1-1  Costa Rica         25,000  Alajuela, Costa Rica (WCQ'86)   Kerr
+May 19 1985  W 1-0  Trinidad            6,515  Torrance, CA, USA (WCQ'86)   Caligiuri
+May 15 1985  W 2-1  Trinidad           15,823  St. Louis, MO, USA (WCQ'86)   Borja, Peterson
+Apr 04 1985  D 1-1  Canada              4,181  Portland, OR, USA   Perez
+Apr 02 1985  L 0-2  Canada              9,150  Vancouver, Canada
+Feb 08 1985  D 1-1  Switzerland         3,000  Tampa, FL, USA   Van Der Beck
+
+    1984 Totals:  4W,  5D,  2L
+Dec 02 1984  D 2-2  Ecuador             4,000  Miami, FL, USA   Ladouceur, Sharp
+Nov 30 1984  D 0-0  Ecuador                    New York, NY, USA
+Oct 17 1984  L 1-2  Mexico             15,000  Mexico City, Mexico   Van Der Beck
+Oct 14 1984  L 0-4  Guatemala                  Guatemala City, Guatemala
+Oct 11 1984  W 1-0  Colombia           26,000  Los Angeles, CA, USA   Coker
+Oct 09 1984  W 3-1  El Salvador        27,000  Los Angeles, CA, USA   Davis, Ladoceur, Hooker
+Oct 06 1984  W 4-0  Neth. Antilles     12,463  St. Louis, MO, USA (WCQ'86)   Coker (2), Di Bernardo, Kapp
+Sep 29 1984  D 0-0  Neth. Antilles             Willemstad, Neth. Ant. (WCQ'86)
+Aug 02 1984  D 1-1  Egypt              54,973 +Palo Alto, CA, USA (OLY'84)   Og
+Jul 31 1984  L 0-1  Italy              63,624 +Pasadena, CA, USA (OLY'84)
+Jul 29 1984  W 3-0  Costa Rica         78,265 +Palo Alto, CA, USA (OLY'84)   Davis (2), Willrich
+May 30 1984  D 0-0  Italy              31,310  East Rutherford, NJ, USA
+
+    1983 Totals:  1W,  0D,  0L
+Apr 08 1983  W 2-0  Haiti                      Port au Prince, Haiti   Borja, Durgan
+
+    1982 Totals:  1W,  0D,  0L
+Mar 21 1982  W 2-1  Trinidad                   Port of Spain, Trinidad   Davis, Veee
+
+    1980 Totals:  4W,  4D,  2L
+Nov 23 1980  W 2-1  Mexico              2,126  Ft. Lauderdale,FL,USA (WCQ'82)   Moyers (2)
+Nov 09 1980  L 1-5  Mexico             90,000  Mexico City, Mexico (WCQ'82)   Davis
+Nov 01 1980  L 1-2  Canada             13,598  Vancouver, Canada (WCQ'82)   Villa
+Oct 25 1980  D 0-0  Canada              7,864  Ft. Lauderdale,FL,USA (WCQ'82)
+Oct 07 1980  D 1-1  Portugal           15,000  Lisbon, Portugal   Davis
+Oct 05 1980  W 2-0  Luxembourg          1,600  Dudelange, Luxembourg   Davis, Hulcer
+Apr 02 1980  D 4-4  Surinam                   +Paramaribo, Surinam (OLQ'80)   Pesa, Veee
+Mar 25 1980  D 1-1  Costa Rica                +Edwardsville, C.R. (OLQ'80)   Ebert
+Mar 20 1980  W 1-0  Costa Rica                +San Jose, Costa Rica (OLQ'80)   Ebert
+Mar 16 1980  W 2-1  Surinam                   +Orlando, FL, USA (OLQ'80)   Morrone, Ebert
+
+    1979 Totals:  6W,  0D,  3L
+Dec 12 1979  W 5-0  Bermuda                   +Ft. Lauderdale, FL,USA(OLQ'80)   R. Davis, Villa
+Dec 02 1979  W 3-0  Bermuda                   +Hamilton, Bermuda (OLQ'80)   A. Dibernardo, R. Davis
+Oct 29 1979  L 2-3  Ireland            20,000  Dublin, Ireland   Villa, Di Bernardo
+Oct 26 1979  W 2-0  Hungary            15,000  Budapest, Hungary   L. Nanchoff, Di Bernardo
+Oct 10 1979  L 0-3  France             30,000  Paris, France
+Oct 07 1979  W 3-1  Bermuda             2,200  Hamilton, Bermuda   Liveric, Bandov, Makowski
+Jun 03 79 FW 2-0  Mexico                    +New York, NY, USA (OLQ'80)
+May 23 79 FW 2-0  Mexico                    +Leon, Mexico (OLQ'80)
+May 02 1979  L 0-6  France             20,591  East Rutherford, NJ, USA
+Feb 11 1979  L 1-4  Soviet Union        7,213  San Francisco, CA, USA   Liveric
+Feb 03 1979  L 1-3  Soviet Union       13,317  Seattle, WA, USA   R. Davis
+
+    1978 Totals:  0W,  1D,  2L
+Sep 20 1978  L 0-1  Portugal            5,000  Setubal, Portugal
+Sep 06 1978  L 0-2  Switzerland         8,600  Lucerne, Switzerland
+Sep 03 1978  D 0-0  Iceland             9,000  Reykjavik, Iceland
+
+    1977 Totals:  4W,  2D,  3L
+Oct 16 1977  W 2-1  China              17,500  San Francisco, CA, USA   Villa, G. Nanchoff
+Oct 10 1977  W 1-0  China              15,003  Atlanta, GA, USA   Pereira
+Oct 06 1977  D 1-1  China               8,366  Washington, DC, USA   Villa
+Sep 30 1977  D 0-0  El Salvador        15,000  Los Angeles, CA, USA
+Sep 27 1977  L 0-3  Mexico             18,000  Monterrey, Mexico
+Sep 25 1977  L 0-2  Guatemala          50,000  Guatemala City, Guatemala
+Sep 22 1977  W 1-0  El Salvador               +San Salvador, El Salvador   Davis
+Sep 18 1977  L 1-3  Guatemala          42,000  Guatemala City, Guatemala   Bellinger
+Sep 15 1977  W 2-1  El Salvador        58,000  San Salvador, El Salvador   Davis, Villa
+
+    1976 Totals:  1W,  5D,  2L
+Dec 22 1976  L 0-3  Canada             32,869  Port au Prince, Haiti (WCQ'78)
+Nov 14 1976  D 0-0  Haiti                      Port au Prince, Haiti
+Nov 12 1976  D 0-0  Haiti                      Port au Prince, Haiti
+Nov 10 1976  D 0-0  Haiti                      Port au Prince, Haiti
+Oct 20 1976  W 2-0  Canada             17,765  Seattle, WA, USA (WCQ'78)   Rys, Veee
+Oct 15 1976  L 0-3  Mexico             45,000  Puebla, Mexico (WCQ'78)
+Oct 03 1976  D 0-0  Mexico             33,171  Los Angeles, CA, USA (WCQ'78)
+Sep 24 1976  D 1-1  Canada             15,453  Vancouver, BC, USA (WCQ'78)   Bandov
+
+    1975 Totals:  1W,  0D,  8L
+Aug 28 1975  L 2-4  Mexico                    +Wilmington, DE, USA (OLQ'76)   Chapla, Pires
+Aug 25 1975  L 0-8  Mexico                    +Toluca, Mexico (OLQ'76)
+Aug 24 1975  L 0-2  Mexico                     Mexico City, Mexico (MCT'75)
+Aug 21 1975  L 0-6  Argentina           1,500  Mexico City, Mexico (MCT'75)
+Aug 19 1975  L 1-3  Costa Rica          1,000  Mexico City, Mexico (MCT'75)   McCully
+Jun 24 1975  L 0-4  Poland             13,195  Seattle, WA, USA
+Apr 27 1975  W 2-0  Bermuda                   +San Francisco, CA, UA (OLQ'76)   Ch. Bahr (2)
+Apr 20 1975  L 2-3  Bermuda                   +Hamilton, Bermuda (OLQ'76)   Stremlau, Salvemini
+Apr 02 1975  L 0-10 Italy              12,318 +Rome, Italy
+Mar 26 1975  L 0-7  Poland             10,000  Poznan, Poland
+
+    1974 Totals:  0W,  0D,  2L
+Sep 08 1974  L 0-1  Mexico             22,164  Dallas, TX, USA
+Sep 05 1974  L 1-3  Mexico             25,000  Monterrey, Mexico   Vaninger
+
+    1973 Totals:  3W,  0D,  9L
+Nov 15 1973  L 0-2  Israel              3,000  Beersheba, Israel
+Nov 13 1973  L 1-3  Israel              5,000  Tel Aviv, Israel   Roy
+Nov 05 1973  L 0-1  Haiti              18,000  Port au Prince, Haiti
+Nov 03 1973  L 0-1  Haiti              22,000  Port au Prince, Haiti
+Oct 16 1973  L 0-2  Mexico             14,000  Puebla, Mexico
+Sep 09 1973  W 1-0  Bermuda             4,200  Hartford, CT, USA   Brewster
+Aug 12 1973  W 1-0  Poland              7,500  New Britain, CT, USA   Trost
+Aug 10 1973  L 0-4  Poland              6,000  San Francisco, CA, USA
+Aug 05 1973  W 2-0  Canada              4,500  Windsor, Canada   Grgurev,Liveric
+Aug 03 1973  L 0-1  Poland             11,870  Chicago, IL, USA
+Mar 20 1973  L 0-4  Poland             16,000  Lodz, Poland
+Mar 17 1973  L 0-4  Bermuda               861  Hamilton, Bermuda
+
+    1972 Totals:  2W,  5D,  6L
+Sep 10 1972  L 1-2  Mexico             13,885  Los Angeles, CA, USA (WCQ'74)   Geimer
+Sep 03 1972  L 1-3  Mexico             29,871  Mexico City, Mexico (WCQ'74)   Roy
+Aug 31 1972  L 0-7  West Germany              +Munich, West Germany (OLY'72)
+Aug 29 1972  L 0-3  Malaysia                  +Ingolstadt, W. Germany(OLY'72)
+Aug 29 1972  D 2-2  Canada              3,273  Baltimore, MD, USA (WCQ'74)   Roy, Geimer
+Aug 27 1972  D 0-0  Morocco                   +Augsburg, West Germany(OLY'72)
+Aug 20 1972  L 2-3  Canada              7,600  St. John's, Canada (WCQ'74)   Roy, Getzinger
+May 14 1972  W 2-1  Jamaica                   +St. Louis, MO, USA (OLQ'72)   Carenza, Hernandez
+May 10 1972  D 2-2  Mexico                    +San Francisco, CA, USA (OLQ'72)   Seerey (2)
+Apr 25 1972  W 2-1  Guatemala                 +Miami, FL, USA (OLQ'72)   Seerey (2)
+Apr 16 1972  L 2-3  Guatemala                 +Guatemala City, Guat. (OLQ'72)   Hamm, Carenza
+Jan 23 1972  D 1-1  Mexico                    +Guadalajara, Mexico (OLQ'72)   Carenza
+Jan 16 1972  D 1-1  Jamaica                   +Kingston, Jamaica (OLQ'72)   Roboostoff
+
+    1971 Totals:  3W,  2D,  0L
+Sep 18 1971  W 1-0  El Salvador               +Kingston, Jamaica (OLQ'72)   Trost
+Aug 22 1971  W 3-1  Barbados                  +Bridgetown, Barbados (OLQ'72)   Demling, Trost, Carenza
+Aug 15 1971  D 1-1  El Salvador               +San Salvador, E. S. (OLQ'72)   Hernandez
+Jul 25 1971  W 3-0  Barbados                  +Miami, FL, USA (OLQ'72)*   Gay (3)
+Jul 18 1971  D 1-1  El Salvador               +Miami, FL, USA (OLQ'72)*   Carenza
+
+    1969 Totals:  0W,  0D,  2L
+May 11 1969  L 0-1  Haiti               6,546  San Diego, CA, USA (WCQ'70)
+Apr 20 1969  L 0-2  Haiti               6,917  Port au Prince, Haiti (WCQ'70)
+
+    1968 Totals:  4W,  1D,  4L
+Nov 11 1968  W 2-0  Bermuda             2,942  Hamilton, Bermuda (WCQ'70)   Roy (41), Og
+Nov 03 1968  W 6-2  Bermuda             2,265  Kansas City, MO, USA (WCQ'70)   Millar (3), Baker (2), Roy
+Oct 26 1968  W 1-0  Canada              2,727  Atlanta, GA, USA (WCQ'70)   Albrecht
+Oct 23 1968  L 0-1  Haiti               5,641  Port au Prince, Haiti
+Oct 21 1968  L 2-5  Haiti               2,464  Port au Prince, Haiti   Stritzl, Millar
+Oct 20 1968  W 6-3  Haiti               7,284  Port au Prince, Haiti   Millar (2), Albrecht (2), Roy (2)
+Oct 13 1968  L 2-4  Canada             10,243  Toronto, Canada (WCQ'70)   Roy (38), Stritzl (90)
+Sep 25 1968  L 0-4  Israel              7,161  Philadelphia, PA, USA
+Sep 15 1968  D 3-3  Israel             10,118  New York, NY, USA   Millar (2), Roy
+
+    1967 Totals:  0W,  1D,  1L
+May 27 1967  L 0-1  Bermuda                   +Chicago, IL, USA (OLQ'68)
+May 21 1967  D 1-1  Bermuda                   +Hamilton, Bermuda (OLQ'68)   Bendeck
+
+    1965 Totals:  1W,  2D,  1L
+Mar 21 1965  D 1-1  Honduras            2,331  Tegucigalpa, Honduras (WCQ'66)   E. Murphy
+Mar 17 1965  W 1-0  Honduras            1,268  San Pedro Sula, CA, USA (WCQ'66)   E. Murphy
+Mar 12 1965  L 0-2  Mexico             64,285  Mexico City, Mexico (WCQ'66)
+Mar 07 1965  D 2-2  Mexico             19,337  Los Angeles, CA, USA (WCQ'66)   Bicek, Shmotolocha
+
+    1964 Totals:  1W,  0D,  3L
+May 27 1964  L 0-10 England             5,062  New York, NY, USA
+Mar 20 1964  L 1-2  Mexico                    +Mexico City, Mexico (OLQ'64)   Gentile
+Mar 18 1964  W 4-2  Panama                    +Mexico City, Mexico (OLQ'64)   Wostl,Gentile (3)
+Mar 16 1964  L 0-1  Surinam                   +Mexico City, Mexico (OLQ'64)
+
+    1961 Totals:  0W,  0D,  1L
+Feb 05 1961  L 0-2  Colombia           30,000  Bogota, Colombia
+
+    1960 Totals:  0W,  1D,  1L
+Nov 13 1960  L 0-3  Mexico             80,000  Mexico City, Mexico (WCQ'62)
+Nov 06 1960  D 3-3  Mexico              8,000  Los Angeles, CA, USA (WCQ'62)   Bicek, Zerfusen, Fister
+
+    1959 Totals:  5W,  1D,  3L
+Nov 22 1959  D 1-1  Mexico                    +Los Angeles, CA, USA (OLQ'60)   E. Murphy
+Oct 08 1959  L 0-2  Mexico                    +Mexico City, Mexico (OLQ'60)
+Sep 05 1959  W 4-2  Mexico                    +Chicago, IL, USA (PAG)
+Sep 03 1959  L 3-4  Costa Rica                +Chicago, IL, USA (PAG)   Looby, Murphy, Zerhusen
+Sep 02 1959  W 5-0  Cuba                      +Chicago, IL, USA (PAG)   Looby (2), Zerhusen (2), Murphy
+Aug 31 1959  W 5-3  Brazil                    +Chicago, IL, USA (PAG)
+Aug 29 1959  W 7-2  Haiti                     +Chicago, IL, USA (PAG)   Zerhusen (4), Looby (2), Grabowski
+Aug 28 1959  L 1-4  Argentina                 +Chicago, IL, USA (PAG)
+May 28 1959  L 1-8  England            13,000  Los Angeles, CA, USA   E. Murphy (18)
+
+    1957 Totals:  0W,  0D,  4L
+Jul 06 1957  L 2-3  Canada              1,500  St. Louis, MO, USA (WCQ'58)   J. Murphy, Mendoza
+Jun 22 1957  L 1-5  Canada              5,167  Toronto, Canada (WCQ'58)   Keough
+Apr 28 1957  L 2-7  Mexico             12,500  Long Beach, CA, USA (WCQ'58)   E. Murphy (2)
+Apr 07 1957  L 0-6  Mexico             75,000  Mexico City, Mexico (WCQ'58)
+
+    1956 Totals:  0W,  0D,  1L
+Nov 28 1956  L 1-9  Yugoslavia                +Melbourne, Australia (OLY'56)   Zerhusen
+
+    1955 Totals:  0W,  0D,  1L
+Aug 25 1955  L 2-3  Iceland             9,500  Reykjavik, Iceland   Looby (2)
+
+    1954 Totals:  2W,  0D,  2L
+Apr 04 1954  W 3-0  Haiti               6,000  Port au Prince, Haiti (WCQ'54)   Looby (2), Mendoza
+Apr 03 1954  W 3-2  Haiti                      Port au Prince, Haiti (WCQ'54)   Looby, Mendoza, Chachurian
+Jan 14 1954  L 1-3  Mexico             40,000  Mexico City, Mexico (WCQ'54)   Looby
+Jan 10 1954  L 0-4  Mexico             60,000  Mexico City, Mexico (WCQ'54)
+
+    1953 Totals:  0W,  0D,  1L
+Jun 08 1953  L 3-6  England             7,271  New York, NY, USA    Decker (2), Atheneos
+
+    1952 Totals:  0W,  0D,  2L
+Jul 16 1952  L 0-8  Italy                     +Tampere, Finland (OLQ'52)
+Apr 30 1952  L 0-6  Scotland          107,765  Glasgow, Scotland
+
+    1950 Totals:  1W,  0D,  2L
+Jul 02 1950  L 2-5  Chile               8,501  Recife, Brazil (WC'50)   Pariani, Souza
+Jun 29 1950  W 1-0  England            10,151  Belo Horizonte, Brazil (WC'50)   Gaetjens
+Jun 25 1950  L 1-3  Spain               9,511  Curitibia, Brazil (WC'50)   Souza
+
+    1949 Totals:  1W,  1D,  3L
+Sep 21 1949  W 5-2  Cuba                5,000  Mexico City, Mex. (NAC/WCQ'50)   Matevich (2), Souza, Wallace, Bahr
+Sep 18 1949  L 2-6  Mexico             54,500  Mexico City, Mex. (NAC/WCQ'50)   J. Sousa, Watman
+Sep 14 1949  D 1-1  Cuba                8,000  Mexico City, Mex. (NAC/WCQ'50)   Wallace
+Sep 04 1949  L 0-6  Mexico             60,000  Mexico City, Mex. (NAC/WCQ'50)
+Jun 19 1949  L 0-4  Scotland           17,000  New York, NY, USA
+
+    1948 Totals:  2W,  0D,  3L
+Oct 17 1948  W 3-2  Israel             25,000 +Brooklyn, NY, USA   Sousa, Valtin, Sullivan, White
+Oct 14 1948  W 4-1  Israel             30,000 +Philadelphia, PA, USA   Gormley, Watman (2)
+Sep 26 1948  W 3-1  Israel             50,000 +New York City, NY, USA
+Aug 11 1948  L 0-5  N. Ireland         14,000  Belfast, N. Ireland
+Aug 06 1948  L 0-11 Norway             25,000  Oslo, Norway
+Aug 02 1948  L 0-9  Italy              20,000 +London, England (OLY'48)
+
+    1947 Totals:  0W,  0D,  2L
+Jul 20 1947  L 2-5  Cuba                       Havana, Cuba (NAC)   E. Souza, Valentine
+Jul 13 1947  L 0-5  Mexico                     Havana, Cuba (NAC)
+
+    1937 Totals:  0W,  0D,  3L
+Sep 26 1937  L 1-5  Mexico                     Mexico City, Mexico   Nemchik
+Sep 19 1937  L 3-7  Mexico             22,000  Mexico City, Mexico   McEwan, Nemchik, Og
+Sep 12 1937  L 2-7  Mexico             21,000  Mexico City, Mexico   Rae, McEwan
+Jul 16 1937  L 2-3  Canada                    +Dallas, TX, USA
+
+    1936 Totals:  0W,  0D,  1L
+Aug 03 1936  L 0-1  Italy                     +Berlin, Germany (OLY'36)
+
+    1935 Totals:  0W,  0D,  2L
+Jun 09 1935  L 1-4  Scotland            8,500 +Newark, NJ, USA   Moorhouse
+May 19 1935  L 1-5  Scotland           25,000 +New York, NY, USA   McEwan
+
+    1934 Totals:  1W,  0D,  1L
+May 27 1934  L 1-7  Italy              30,000  Rome, Italy (WC'34)   Donelli
+May 24 1934  W 4-2  Mexico             10,000  Rome, Italy (WCQ'34)   Donelli (4)
+
+    1930 Totals:  2W,  0D,  2L
+Aug 17 1930  L 3-4  Brazil                     Rio de Janeiro, Brazil   Patenaude (2), Gonsalves
+Jul 26 1930  L 1-6  Argentina          80,000  Montevideo, Uruguay (WC'30)   Brown
+Jul 17 1930  W 3-0  Paraguay           20,800  Montevideo, Uruguay (WC'30)   Patenaude (2), Florie
+Jul 13 1930  W 3-0  Belgium            10,000  Montevideo, Uruguay (WC'30)   McGhee, Florie, Patenaude
+
+    1928 Totals:  0W,  1D,  1L
+Jun 10 1928  D 3-3  Poland             10,000  Warsaw, Poland   Ryan, Gallagher, Kuntner
+May 30 1928  L 2-11 Argentina                  Amsterdam, Netherlands(Oly'28)   Findley (2)
+
+    1926 Totals:  1W,  0D,  0L
+Nov 06 1926  W 6-2  Canada              2,500  Brooklyn, NY, USA   Brown (2), Auld (2), Marshall, Florie
+
+    1925 Totals:  1W,  0D,  1L
+Nov 08 1925  W 6-1  Canada              8,000  Brooklyn, NY, USA   Brown, Stark (5)
+Jun 27 1925  L 0-1  Canada              3,500  Montreal, Canada
+
+    1924 Totals:  2W,  0D,  2L
+Jun 16 1924  L 1-3  Ireland                    Dublin, Ireland   Rhody
+Jun 10 1924  W 3-2  Poland              8,000  Warsaw, Poland   Stradan (2), Wells
+May 29 1924  L 0-3  Uruguay            20,000  Paris, France (Oly'24)
+May 25 1924  W 1-0  Estonia            10,000  Paris, France (Oly'24)   Stradan
+
+    1916 Totals:  1W,  1D,  0L
+Sep 03 1916  D 1-1  Norway             25,000  Oslo (Kristiania), Norway   Ellis
+Aug 20 1916  W 3-2  Sweden             16,000  Stockholm, Sweden   Spalding, Ellis, Cooper

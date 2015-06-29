@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.usmntsoccerroster"
-        versionCode="310" 
-        version   = "0.3.1">
+        versionCode="400" 
+        version   = "0.4.0">
 
     <name>WORLD CUP USA SOCCER TEAM</name>
 
@@ -23,7 +23,7 @@
     <preference name="android-targetSdkVersion" value="14" />
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
     <gap:plugin name="com.adobe.plugins.gaplugin" />
-    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation" value="portrait"/>
     <preference name="fullscreen" value="true" />
     <icon src="icon-large.png" />
