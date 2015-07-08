@@ -2,13 +2,15 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.usmntsoccerroster"
-        versionCode="400" 
-        version   = "0.4.0">
+        versionCode="410" 
+        version   = "0.4.1">
 
-    <name>WORLD CUP USA SOCCER TEAM</name>
+    <name>USA SOCCER TEAM</name>
 
     <description>
-        Get to know the World Cup Team for the United States of America! This app displays the 23 man soccer/football roster for the US Men's National Team. Prepare for the world cup and learn details about these world class players. Learn their number so you know who to cheer for from behind and be ready to impress friends. A must have for any American Outlaw.
+        Do you know the top American Soccer Players? Take this quiz to find out if you know all the current and historic players!
+
+        Get to know the US Soccer Gold Cup Team! This app displays the full soccer/football roster for the US Men's National Team. Learn details about these world class players. Select different rosters, such as the World Cup 2014, Gold Cup 2013 and Gold Cup 2015, as well as hall of famers! A must have for any American Outlaw.
 
         "Great resource to learn more about the players while you watch the matches!"
 
