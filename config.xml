@@ -2,15 +2,15 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.usmntsoccerroster"
-        versionCode="410" 
-        version   = "0.4.1">
+        versionCode="420" 
+        version   = "0.4.2">
 
-    <name>USA SOCCER TEAM</name>
+    <name>Who's Who - US Soccer Edition</name>
 
     <description>
-        Do you know the top American Soccer Players? Take this quiz to find out if you know all the current and historic players!
+        Do you know who's who among the top American Soccer Players? Take this quiz to find out if you know all the current and historic players!
 
-        Get to know the US Soccer Gold Cup Team! This app displays the full soccer/football roster for the US Men's National Team. Learn details about these world class players. Select different rosters, such as the World Cup 2014, Gold Cup 2013 and Gold Cup 2015, as well as hall of famers! A must have for any American Outlaw.
+        Get to know the US Soccer Gold Cup Team! This app displays the full soccer/football roster for the US Men's National Team. Learn details about these world class players. Select different rosters, such as the World Cup 2014, Gold Cup 2013 and Gold Cup 2015, as well as hall of famers! A must have for any American Outlaw or fan of USMNT.
 
         "Great resource to learn more about the players while you watch the matches!"
 
