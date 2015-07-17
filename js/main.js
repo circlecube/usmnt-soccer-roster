@@ -86,6 +86,13 @@ jQuery(document).ready(function($) {
 		
 		update_roster();
 		
+		if (localStorage.roster){
+			console.log(localStorage.roster);
+			roster = localStorage.roster;
+			$('.quiz_roster .quiz').parent().removeClass('active');
+			$('.quiz_roster .quiz[data-value="'+roster+'"]').parent().addClass('active');
+		}
+		
 		game_players();
 	}
 
@@ -245,13 +252,14 @@ jQuery(document).ready(function($) {
 							player: active_team[i]
 						});
 		}
-		for ( var i = 0; i < usmnt_coaches.length; i++){
+		/*for ( var i = 0; i < usmnt_coaches.length; i++){
 			players += list_player_template(
 						{
 							index: i, 
 							player: usmnt_coaches[i]
 						});
-		}
+		}*/
+		
 		// $('.title').text( 'USMNT Roster' );
 		$('.content').html(players);
 
