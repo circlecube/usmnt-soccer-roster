@@ -2,9 +2,6 @@ if (!window.console) console = {log: function() {}};
 /*
 TODO
 
-Add Teams to a setting so you can be tested on just certain rosters. For example, World Cup 2014, Gold Cup 2015... Add more as they are completed. WC 2010, 2006, 2002, Hall of Fame Caps, Hall of Fame Goals
-
-
 */
 var gaPlugin;
 var activity_log = [];
@@ -42,7 +39,7 @@ var active_team = usmnt_players;
 var active_team_title = 'USMNT';
 var list_player;
 var list_player_template;
-var rosters = ['All'];
+var rosters = [ ['All', 0] ];
 var roster = 'All';
 jQuery(document).ready(function($) {
 
@@ -180,26 +177,47 @@ jQuery(document).ready(function($) {
 	function build_rosters(){
 		//get rosters from data and build master
 		for ( var i = 0; i < active_team.length; i++ ){
+			active_team[i].rosters += ',All';
 			var player_rosters_string = active_team[i].rosters;			
 			var player_rosters = player_rosters_string.split(',');
-			active_team[i].rosters += ',All';
 			for ( var j = 0; j < player_rosters.length; j++ ) {
 				//if not in rosters already
-				if ( $.inArray( player_rosters[j], rosters ) === -1 && 
-					player_rosters[j] !== '' ) {
-					//add to master rosters list
-					// console.log('adding new roster', player_rosters[j]);
-					rosters.push( player_rosters[j] );
+				if ( player_rosters[j] !== '' ) {
+					var main_roster_index = -1;
+					for( var k = 0; k < rosters.length; k++){
+						//match
+						if( player_rosters[j] == rosters[k][0] ) {
+							main_roster_index = k;
+							//increment count
+							rosters[k][1]++;
+						}
+					}
+					if ( main_roster_index === -1 ) {
+						//add to master rosters list
+						// console.log('adding new roster', player_rosters[j]);
+						var new_roster = [player_rosters[j], 1];
+						rosters.push( new_roster );
+					}
 				}
 			}
 		}
-		// console.log(rosters);
+		
+		console.log(rosters);
+		
 		//sort alphabetically
+		rosters.sort(function(a, b) {
+		    return parseInt( b[0].substring(0, 4) ) - parseInt( a[0].substring(0,4) );
+		});
+		
+		console.log(rosters);
 		
 		//build menu item for each roster
 		var rosters_html = '';
 		for (var i = 0; i < rosters.length; i++){
-			rosters_html += '<li><a href="#" class="quiz quiz_roster" data-index="'+i+'" data-value="' + rosters[i] + '">' + rosters[i] + '</a></li>';
+			//only show near full squads - at least 20 men
+			if (rosters[i][1] >= 20 ) {
+				rosters_html += '<li><a href="#" class="quiz quiz_roster" data-index="'+i+'" data-value="' + rosters[i][0] + '" data-count="' + rosters[i][1] + '">' + rosters[i][0] + '</a></li>';
+			}
 		}
 		$('.quiz_roster ul').html(rosters_html);
 	}
